@@ -1,3 +1,4 @@
 # gitignore
 pyproject.toml
 poetry.lock
+kivy-reloader.toml
