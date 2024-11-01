@@ -1,12 +1,15 @@
 <MainScreen>:
+    
     MDScreen:
         name: 'main_screen'
         orientation:"vertical"
         radius: [25, 0, 0, 0]
-    
+       
         MDBoxLayout:
             orientation: 'vertical'
-            
+
+            TopBar:
+                
             MDLabel: 
                 text:"teste screen"
                 halign: "center"
@@ -36,13 +39,13 @@
                 height: "56dp"
                 size_hint_x: .3
                 on_press: root.on_some_event(in_data.text)
-                pos_hint: {"center_x": .5, "center_y": .5}
+                pos_hint: {"center_x": .5, "center_y": .5} 
 
             MDRaisedButton:
                 text: "tela historico"
                 height: "56dp"
                 size_hint_x: .3
-                on_press: root.manager.current = 'historico_screen'
+                on_press: root.manager.current = 'historico_screen' 
                 pos_hint: {"center_x": .5, "center_y": .5}
 
     

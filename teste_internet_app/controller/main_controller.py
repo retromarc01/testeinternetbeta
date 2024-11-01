@@ -3,9 +3,8 @@ from kivy.clock import Clock
 from teste_internet_app.model.database import Database
 from teste_internet_app.screens.main_screen import MainScreen
 
+
 class MainController:
-    #view = MainScreen()
-    
     def __init__(self, view):
         self.view = view
         self.db = Database('my_database.db')
