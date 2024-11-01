@@ -1,0 +1,30 @@
+<HistoricoScreen>:
+    MDScreen:
+        name: 'historico_screen'
+        orientation:"vertical"
+        radius: [25, 0, 0, 0]
+    
+        MDBoxLayout:
+            orientation: 'vertical'
+            
+            MDLabel: 
+                text:"teste historico screen"
+                halign: "center"
+                
+            MDRaisedButton:
+                text: 'Welcome to Kivy Reloader!'
+                height: "56dp"
+                size_hint_x: .3
+                pos_hint: {"center_x": .5, "center_y": .5}
+
+            MDLabel:
+                text: "tester conexao com banco de dados"
+                halign: "center"
+            
+
+            MDRaisedButton:
+                text: "voltar"
+                height: "56dp"
+                size_hint_x: .3
+                on_press: root.manager.current = 'main_screen'
+                pos_hint: {"center_x": .5, "center_y": .5}

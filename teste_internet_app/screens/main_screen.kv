@@ -1,25 +1,48 @@
 <MainScreen>:
+    MDScreen:
+        name: 'main_screen'
+        orientation:"vertical"
+        radius: [25, 0, 0, 0]
     
-    BoxLayout:
-        orientation: 'vertical'
-        
-        Label: 
-            text:"teste screen"
+        MDBoxLayout:
+            orientation: 'vertical'
+            
+            MDLabel: 
+                text:"teste screen"
+                halign: "center"
+                
+            MDRaisedButton:
+                text: 'Welcome to Kivy Reloader!'
+                height: "56dp"
+                size_hint_x: .3
+                pos_hint: {"center_x": .5, "center_y": .5}
 
-        Button:
-            text: 'Welcome to Kivy Reloader!'
+            MDLabel:
+                text: "tester conexao com banco de dados"
+                halign: "center"
+            
+            MDTextField:
+                id: in_data
+                helper_text_mode: "on_focus"
+                pos_hint: {"center_x": .5, "center_y": .5}
+                size_hint_x: .3
 
-        Label:
-            text: "tester conexao com banco de dados"
-        
-        TextInput:
-            id: in_data
+            MDLabel:
+                text: in_data.text
+                halign: "center"
 
-        Label:
-            text: in_data.text
+            MDRaisedButton:
+                text: "insert dados"
+                height: "56dp"
+                size_hint_x: .3
+                on_press: root.on_some_event(in_data.text)
+                pos_hint: {"center_x": .5, "center_y": .5}
 
-        Button
-            text: "insert dados"
-            on_press: root.on_some_event(in_data.text)#root.insert_data(in)
+            MDRaisedButton:
+                text: "tela historico"
+                height: "56dp"
+                size_hint_x: .3
+                on_press: root.manager.current = 'historico_screen'
+                pos_hint: {"center_x": .5, "center_y": .5}
 
-  
+    

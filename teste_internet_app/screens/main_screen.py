@@ -1,5 +1,7 @@
 import os
-from kivy.uix.screenmanager import Screen
+#from kivy.uix.screenmanager import Screen
+from kivymd.uix.screen import MDScreen
+from kivymd.uix.screenmanager import MDScreenManager
 from kivy_reloader.utils import load_kv_path
 from kivy.clock import Clock
 from kivy.properties import StringProperty
@@ -9,7 +11,7 @@ main_screen_kv = os.path.join("teste_internet_app", "screens", "main_screen.kv")
 load_kv_path(main_screen_kv)
 
 
-class MainScreen(Screen):
+class MainScreen(MDScreen):
     def __init__(self, controller, **kwargs):
         super().__init__(**kwargs)
         self.controller = controller
