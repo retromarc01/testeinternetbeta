@@ -2,3 +2,4 @@
 pyproject.toml
 poetry.lock
 kivy-reloader.toml
+my_datavbase.db

@@ -1,5 +1,25 @@
 <MainScreen>:
+    
     BoxLayout:
         orientation: 'vertical'
+        
+        Label: 
+            text:"teste screen"
+
         Button:
             text: 'Welcome to Kivy Reloader!'
+
+        Label:
+            text: "tester conexao com banco de dados"
+        
+        TextInput:
+            id: in_data
+
+        Label:
+            text: in_data.text
+
+        Button
+            text: "insert dados"
+            on_press: root.on_some_event(in_data.text)#root.insert_data(in)
+
+  
