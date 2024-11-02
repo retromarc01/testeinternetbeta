@@ -1,9 +1,9 @@
 # gitignore
-__pycache__/
-teste_internet/__pycache__/
-teste_internet/screens/__pycache__/
-teste_internet/controllers/__pycache__/
-teste_internet/models/__pycache__/
+__pycache__/*
+teste_internet_app/__pycache__/*
+teste_internet_app/screens/__pycache__/*
+teste_internet_app/controller/__pycache__/*
+teste_internet_app/model/__pycache__/*
 pyproject.toml
 poetry.lock
 kivy-reloader.toml
