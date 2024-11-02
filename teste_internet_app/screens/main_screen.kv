@@ -3,8 +3,11 @@
     MDScreen:
         name: 'main_screen'
         orientation:"vertical"
+    
+        
         radius: [25, 0, 0, 0]
-       
+        MDFloatLayout:
+
         MDBoxLayout:
             orientation: 'vertical'
 
@@ -48,4 +51,4 @@
                 on_press: root.manager.current = 'historico_screen' 
                 pos_hint: {"center_x": .5, "center_y": .5}
 
-    
+
