@@ -1,5 +1,10 @@
 # gitignore
+__pycache__/
+teste_internet/__pycache__/
+teste_internet/screens/__pycache__/
+teste_internet/controllers/__pycache__/
+teste_internet/models/__pycache__/
 pyproject.toml
 poetry.lock
 kivy-reloader.toml
-my_datavbase.db
+my_database.db
