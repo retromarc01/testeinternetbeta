@@ -6,8 +6,6 @@ from teste_internet_app.controller.main_controller import MainController
 from teste_internet_app.model.database import Database
 from kivy.clock import Clock
  
-
- 
 class MainApp(App,MDApp):
 
     def build(self):

@@ -8,7 +8,6 @@ from teste_internet_app.controller.main_controller import MainController
 from teste_internet_app.screens.topbar import TopBar
 #myscreen_manager_kv = os.path.join("teste_internet_app", "screens", "myscreen_manager.kv")
 #load_kv_path(myscreen_manager_kv)
-#from screens.screen_two import ScreenTwo
 
 #class MyScreenManager(ScreenManager):
 class MyScreenManager(MDScreenManager):
