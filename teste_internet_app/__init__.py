@@ -8,6 +8,9 @@ from kivymd.uix.screenmanager import MDScreenManager
 from teste_internet_app.controller.main_controller import MainController
 from teste_internet_app.model.database import Database
 from kivymd.theming import ThemeManager
+from kivymd.uix.label import MDLabel
+from teste_internet_app.screens.topbar import TopBar
+from kivymd.uix.card import MDCard
 
  
 class MainApp(App,MDApp):
@@ -27,16 +30,52 @@ class MainApp(App,MDApp):
         #self.configure_theme()
         #self.controller = MainController(self.view)
         self.db = Database('my_database.db')
+        self.main_screen = MainScreen(self.controller)
+        print(self.main_screen.ids)
+    
         #print(self.controller.data)
         self.db.create_table()
  
         return self.view
     
+    def get_card_bg_color(self): 
+        return [1, 1, 1, 1] if self.theme_cls.theme_style == "Light" else [0.2, 0.2, 0.2, 1]
+    
+    
+    def get_icon(self): # Define o ícone com base no tema atual 
+        return "moon-waning-crescent" if self.theme_cls.theme_style == "Light" else "white-balance-sunny"
+    
     def configure_theme(self): 
-        self.theme_cls.theme_style = "Dark" # Você pode mudar para "Dark" 
-        self.theme_cls.primary_palette = "Purple" # Altere para a paleta desejada 
+        self.theme_cls.theme_style = "Light" # Você pode mudar para "Dark" 
+        self.theme_cls.primary_palette = "Blue" # Altere para a paleta desejada 
         self.theme_cls.primary_hue = "500" # Opcional, para definir a tonalidade principal 
         self.theme_cls.accent_palette = "Red" # Opcional, para definir a cor de destaque # Definindo cores personalizadas para botões 
+        #self.theme_cls.text_color = [0, 0, 0, 1]
         #self.theme_cls.primary_dark = "#1976D2" # Azul escuro, por exemplo 
         #self.theme_cls.primary_light = "#BBDEFB" # Azul claro, por exemplo 
         #self.theme_cls.text_color = "#FFFFFF" # Cor do texto do botão
+        
+    
+        
+    def switch_theme(self): # Troca entre "Light" e "Dark" 
+        self.topbar = TopBar()
+        print(self.topbar.ids.topbar.right_action_items)
+        
+        if self.theme_cls.theme_style == "Light" : 
+            self.theme_cls.theme_style = "Dark" 
+           
+        else: self.theme_cls.theme_style = "Light"
+        #self.topbar.ids.topbar.right_action_items = [[self.get_icon(), lambda x: self.switch_theme()]]
+        for widget in self.root.walk(): 
+            if isinstance(widget, MDLabel): widget.text_color = self.get_text_color()
+            if isinstance(widget, MDCard): widget.md_bg_color = self.get_card_bg_color()
+            
+                
+        self.topbar.ids.topbar.right_action_items = [[self.get_icon(), lambda x: self.switch_theme()]]
+            
+        
+        
+    def get_text_color(self): 
+        return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
+    
+    

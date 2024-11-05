@@ -6,6 +6,7 @@ from kivy_reloader.utils import load_kv_path
 from kivy.clock import Clock
 from kivy.properties import StringProperty
 import asyncio
+from kivy.metrics import dp
 main_screen_kv = os.path.join("teste_internet_app", "screens", "main_screen.kv")
 
 load_kv_path(main_screen_kv)

@@ -2,50 +2,62 @@
     
     MDScreen:
         name: 'main_screen'
-        orientation:"vertical"
+        #orientation:"vertical"
         radius: [25, 0, 0, 0]
        
         MDBoxLayout:
             orientation: 'vertical'
+            
 
             TopBar:
                 
-            MDLabel: 
-                text:"teste screen"
-                halign: "center"
+            MDFloatLayout:
+                size_hint: 1, 1
+                pos_hint: {"top": 0.15}
                 
-            MDRaisedButton:
-                text: 'Welcome to Kivy Reloader!'
-                height: "56dp"
-                size_hint_x: .3
-                pos_hint: {"center_x": .5, "center_y": .5}
-
-            MDLabel:
-                text: "tester conexao com banco de dados"
-                halign: "center"
             
-            MDTextField:
-                id: in_data
-                helper_text_mode: "on_focus"
-                pos_hint: {"center_x": .5, "center_y": .5}
-                size_hint_x: .3
+                MDBoxLayout:
+                    id: box_layout
+                    orientation: "vertical"
+                    spacing: 10
+                    padding: 10
+                    pos_hint: {"top": 2.0/1} 
 
-            MDLabel:
-                text: in_data.text
-                halign: "center"
+                    MDCard:
+                        id:card
+                        size_hint_y: None
+                        height: 200
+                        elevation: 3
+                        padding: "4dp"
+                        theme_shadow_color: "Custom"
+                        shadow_color: "blue"
+                        pos_hint: {"center_x": .5, "top": 20}
+                        md_bg_color: app.get_card_bg_color()
 
-            MDRaisedButton:
-                text: "insert dados"
-                height: "56dp"
-                size_hint_x: .3
-                on_press: root.on_some_event(in_data.text)
-                pos_hint: {"center_x": .5, "center_y": .5} 
+                        MDBoxLayout:
+                            orientation: "vertical"
+                            padding: 10
 
-            MDRaisedButton:
-                text: "tela historico"
-                height: "56dp"
-                size_hint_x: .3
-                on_press: root.manager.current = 'historico_screen' 
-                pos_hint: {"center_x": .5, "center_y": .5}
 
+                            MDLabel:
+                                id:ping
+                                orientation: "vertical"
+                                text: "ping :"
+                                #color: "grey"
+                                font_style: "H5"
+                                pos: "22dp", "33dp"
+                                halign: "left"
+                                bold: True
+                                adaptive_size: True
+                                theme_text_color: "Custom"
+                                text_color: app.get_text_color()
+                            
+                            MDLabel:
+                                text: "Descrição do card 1"
+                                font_style: "Body1"
+                                theme_text_color: "Custom"
+                                text_color: app.get_text_color()
+
+                    
     
+
