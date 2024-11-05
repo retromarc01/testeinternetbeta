@@ -1,5 +1,0 @@
-<MyScreenManager>:
-    MainScreen:
-    HistoricoScreen:
-    TopBar:
-        id: topbar

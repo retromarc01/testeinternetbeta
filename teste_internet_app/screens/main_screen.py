@@ -15,11 +15,14 @@ class MainScreen(MDScreen):
     def __init__(self, controller, **kwargs):
         super().__init__(**kwargs)
         self.controller = controller
+        #self.data = self.ids.in_data.text
+        #print(self.ids.in_data.text)
+        print(self.ids)
+        
     
     def update_display(self,data):
+        self.controller = self.controller
         data = "teste de insercao"
-
-        print(data)
         self.data = self.ids.in_data.text
         
     def on_some_event(self,*args):
