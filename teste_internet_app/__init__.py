@@ -23,31 +23,12 @@ class MainApp(App,MDApp):
         #self.view = MainScreen(self.controller)
         self.view = MyScreenManager(self.controller)#(self.controller)
         self.controller.view = self.view
-<<<<<<< HEAD
-        self.theme_cls.theme_style_switch_animation = True
-        self.theme_cls.theme_style_switch_animation_duration = 0.8
-        self.theme_cls.theme_style = "Dark"
-        self.theme_cls.primary_hue = "600"
-        self.theme_cls.primary_palette = "Purple"
-=======
-        #self.myscreen_manager = self.controller.view
-        #self.myscreen_manager.main_screen = getattr(MainScreen)
-        #self.theme_cls.dynamic_color = True
-        #self.theme_cls.theme_style = "Dark"
-        #self.theme_cls.primary_palette = "Purple"
-        #self.configure_theme()
->>>>>>> testing
-        #self.controller = MainController(self.view)
         self.db = Database('my_database.db')
         self.main_screen = MainScreen(self.controller)
         print(self.main_screen.ids)
     
         #print(self.controller.data)
         self.db.create_table()
-<<<<<<< HEAD
-        
-        return self.view
-=======
  
         return self.view
     
@@ -90,6 +71,3 @@ class MainApp(App,MDApp):
         
     def get_text_color(self): 
         return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
-    
-    
->>>>>>> testing
