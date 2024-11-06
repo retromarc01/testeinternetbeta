@@ -1,9 +1,8 @@
 import asyncio
 from kivy.clock import Clock
 from teste_internet_app.model.database import Database
-
 from teste_internet_app.screens.main_screen import MainScreen
-#from teste_internet_app.screens.myscreen_manager import MyScreenManager
+
 
 
 class MainController:
@@ -33,6 +32,6 @@ class MainController:
     def show_table(self):
         tabela = self.db.show_table()
         print(tabela[1])
-        
+
         
         

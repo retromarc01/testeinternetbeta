@@ -16,47 +16,316 @@
                 pos_hint: {"top": 0.15}
                 
             
+                MDGridLayout:
+                    id: grid
+                    cols:2
+                    #orientation: "vertical"
+                    #row_force_default: True
+                    padding: 5
+                    #pos_hint: {"center_x":0.5}
+                    #pos_hint: {"top":2.2}
+                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    adaptive_height: True
+                    adaptive_width: True
+                    #pos_hint: {"center_x": .2/1.2, "center_y":1.6}
+                    #row_default_height: 100
+                    pos_hint: {"center_x": .5, "center_y":1.6}
+
+                    MDLabel:
+                        id:ping
+                        text: "ping"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "3dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+                        pos_hint: {"top": .5, "center_y": .5}
+                        allow_selection: True
+
+                    MDLabel:
+                        id:campo_ping
+                        text: " campo_ping"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "3dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+                        allow_selection: True
+                        
+
+                    MDLabel:
+                        id:ip
+                        text: "ip"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_ip
+                        text: " campo_ip"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+                    
+                    MDLabel:
+                        id:operadora
+                        text: "operadora"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_operadora
+                        text: " campo_operadora"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
                 MDBoxLayout:
-                    id: box_layout
-                    orientation: "vertical"
-                    spacing: 10
-                    padding: 10
-                    pos_hint: {"top": 2.0/1} 
+                    id: progress_layout
+                    orientation: 'horizontal'
+                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    adaptive_height: True
+                    adaptive_width: True
+                    pos_hint: {"center_x": .5, "center_y":1.4/1}
 
-                    MDCard:
-                        id:card
-                        size_hint_y: None
-                        height: 200
-                        elevation: 3
-                        padding: "4dp"
-                        theme_shadow_color: "Custom"
-                        shadow_color: "blue"
-                        pos_hint: {"center_x": .5, "top": 20}
-                        md_bg_color: app.get_card_bg_color()
-
-                        MDBoxLayout:
-                            orientation: "vertical"
-                            padding: 10
-
-
-                            MDLabel:
-                                id:ping
-                                orientation: "vertical"
-                                text: "ping :"
-                                #color: "grey"
-                                font_style: "H5"
-                                pos: "22dp", "33dp"
-                                halign: "left"
-                                bold: True
-                                adaptive_size: True
-                                theme_text_color: "Custom"
-                                text_color: app.get_text_color()
+                    MDProgressBar:
+                        orientation: 'horizontal'
+                        id: pb
+                        height:"5dp"
+                        width:"260dp"
+                        size_hint:None, None
+                        padding: "10dp"
+                
+                        #type: "indeterminate"
+                        pos_hint: {'center_x': .5, 'center_y': .5}
+                        pos_hint: {"center_y": .7}
+                        catching_duration: 1.5
+                        value: 50
+                        theme_text_color: "Custom"
                             
-                            MDLabel:
-                                text: "Descrição do card 1"
-                                font_style: "Body1"
-                                theme_text_color: "Custom"
-                                text_color: app.get_text_color()
+                        text_color: app.get_text_color()
+
+                MDGridLayout:
+                    id: grid_1
+                    cols:2
+                    padding: 5
+                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    adaptive_height: True
+                    adaptive_width: True
+                    pos_hint: {"center_x": .5, "center_y":1.2/1.06}
+         
+
+                    MDLabel:
+                        id:upload
+                        text: "upload "
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "12dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_upload
+                        text: "campo_upload"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "12dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:download
+                        text: "download "
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_download
+                        text: "campo_download"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "left"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+                    
+                    MDLabel:
+                        id:pais
+                        text: "país " # + root.operadora
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_pais
+                        text: "campo_país" # + root.operadora
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+
+                    MDLabel:
+                        id:lat
+                        text: "latitude " #
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_lat
+                        text: "campo_latitude"
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:lon
+                        text: "longitude" #
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                    MDLabel:
+                        id:campo_lon
+                        text: "campo_longitude" #
+                        #color: "grey"
+                        font_style: "H6"
+                        pos: "22dp", "33dp"
+                        halign: "center"
+                        bold: True
+                        adaptive_size: True
+                        theme_text_color: "Custom"
+                        text_color: app.get_text_color()
+
+                MDBoxLayout:
+                    id: box_layout_map
+                    orientation: "horizontal"
+                    spacing: 5
+                    padding: 5
+                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    adaptive_height: True
+                    adaptive_width: True
+                    pos_hint: {"center_x": .5, "center_y":.7}
+                     
+
+                    
+                    MDBoxLayout:
+                        id: map
+                        orientation: "horizontal"
+                        #size: 300, 200
+                        spacing: 5
+                        padding: 5
+                        #pos_hint: {"center_y":.6, "center_x": 0.5} 
+                        size_hint_x: 1
+                        size_hint_y: 0.3
+                        md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                        outline_color:[1, 0, 0, 1] 
+                        adaptive_height: 100
+                        adaptive_width: True
+
+                    MDRaisedButton:
+                        text: "campomap"
+                        height: "56dp"
+                        size_hint_x: .3
+                        on_press: root.on_some_event(in_data.text)
+                        pos_hint: {"center_x": .5, "center_y": .5}
+
+                    MDRaisedButton:
+                        text: "campomap"
+                        height: "56dp"
+                        size_hint_x: .3
+                        on_press: root.on_some_event(in_data.text)
+                        pos_hint: {"center_x": .5, "center_y": .5}
+
+                MDRaisedButton:
+                    text: "insert dados"
+                    height: "56dp"
+                    size_hint_x: .3
+                    on_press: root.on_some_event(in_data.text)
+                    pos_hint: {"center_x": .5, "center_y": .5} 
+
+                MDRaisedButton:
+                    text: "tela historico"
+                    height: "56dp"
+                    size_hint_x: .3
+                    on_press: root.manager.current = 'historico_screen' 
+                    pos_hint: {"center_x": .5, "center_y": .5}
+
+
+                                    
+            
+
+                    
 
                     
     
