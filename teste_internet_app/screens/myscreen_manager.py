@@ -9,12 +9,14 @@ from teste_internet_app.screens.topbar import TopBar
 #myscreen_manager_kv = os.path.join("teste_internet_app", "screens", "myscreen_manager.kv")
 #load_kv_path(myscreen_manager_kv)
 
-#class MyScreenManager(ScreenManager):
+
 class MyScreenManager(MDScreenManager):
+    
     def __init__(self,controller, **kwargs):
         super().__init__(**kwargs)
+
         self.controller = controller  
         self.add_widget(MainScreen(name='main_screen',controller=self.controller))
         self.add_widget(HistoricoScreen(name='historico_screen',controller=self.controller))
         self.add_widget(TopBar(name='topbar'))
-        #self.add_widget(TopBar(name='topbar',controller=self.controller))  
+   

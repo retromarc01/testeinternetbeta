@@ -1,0 +1,7 @@
+<MyScreenManager>:
+    MainScreen:
+        name: "main_screen"
+    HistoricoScreen:
+        name: "historico_screen
+    TopBar:
+        name: "top_bar"

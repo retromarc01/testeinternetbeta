@@ -4,8 +4,11 @@ from teste_internet_app.model.database import Database
 from teste_internet_app.screens.main_screen import MainScreen
 
 
+
 class MainController:
+
     def __init__(self, view):
+        self.up = MainScreen(controller=MainController)
         self.view = view
         self.db = Database('my_database.db')
         #self.test_init()
@@ -16,7 +19,9 @@ class MainController:
     async def fetch_data(self):
         await asyncio.sleep(1)  # Simulação de operação assíncrona 
         data = self.db.fetch_data()
-        Clock.schedule_once(lambda dt: self.view.update_display(data))
+        #Clock.schedule_once(lambda dt: self.view.update_display(data))
+        Clock.schedule_once(lambda dt:self.up.update_display(data))
+        print(self.db.fetch_data)
         
 
     def add_data(self, data):
@@ -27,6 +32,6 @@ class MainController:
     def show_table(self):
         tabela = self.db.show_table()
         print(tabela[1])
-        
+
         
         
