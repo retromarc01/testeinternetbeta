@@ -5,6 +5,7 @@ from teste_internet_app.screens.main_screen import MainScreen
 
 
 
+
 class MainController:
 
     def __init__(self, view):
@@ -14,6 +15,7 @@ class MainController:
         #self.test_init()
         #self.fetch_data()
         self.show_table()
+
 
 
     async def fetch_data(self):
@@ -32,6 +34,9 @@ class MainController:
     def show_table(self):
         tabela = self.db.show_table()
         print(tabela[1])
+        
+
+
 
         
         

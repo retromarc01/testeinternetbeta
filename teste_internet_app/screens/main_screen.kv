@@ -32,6 +32,7 @@
                     outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
+                    size_hint_x: 0.8/1.1
                     #pos_hint: {"center_x": .2/1.2, "center_y":1.6}
                     #row_default_height: 100
                     pos_hint: {"center_x": .5, "center_y":1.6}
@@ -52,13 +53,13 @@
 
                     MDLabel:
                         id:campo_ping
-                        text: " campo_ping"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "3dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
                         allow_selection: True
@@ -79,13 +80,13 @@
 
                     MDLabel:
                         id:campo_ip
-                        text: " campo_ip"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
                     
@@ -103,13 +104,13 @@
 
                     MDLabel:
                         id:campo_operadora
-                        text: " campo_operadora"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -123,20 +124,21 @@
                     pos_hint: {"center_x": .5, "center_y":1.4/1}
 
                     MDProgressBar:
-                        orientation: 'horizontal'
+                        #orientation: 'horizontal'
                         id: pb
-                        height:"5dp"
+                        height:"4dp"
                         width:"260dp"
-                        size_hint:None, None
-                        padding: "10dp"
+                        size_hint_y: None
+                        size_hint_x: 0.5
+                        #size_hint:None, None
+                        #padding: "10dp"
                 
                         #type: "indeterminate"
-                        pos_hint: {'center_x': .5, 'center_y': .5}
-                        pos_hint: {"center_y": .7}
+                        pos_hint: {'center_x': .5, 'center_y': .2}
+                        #pos_hint: {"center_y": .7}
                         catching_duration: 1.5
-                        value: 50
+                        #value: 0
                         theme_text_color: "Custom"
-                            
                         text_color: app.get_text_color()
 
                 MDGridLayout:
@@ -147,6 +149,7 @@
                     outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
+                    size_hint_x: 0.8/1.1
                     pos_hint: {"center_x": .5, "center_y":1.2/1.06}
          
 
@@ -164,13 +167,13 @@
 
                     MDLabel:
                         id:campo_upload
-                        text: "campo_upload"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "12dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -188,19 +191,19 @@
 
                     MDLabel:
                         id:campo_download
-                        text: "campo_download"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
                     
                     MDLabel:
                         id:pais
-                        text: "país " # + root.operadora
+                        text: "país "
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
@@ -212,13 +215,13 @@
 
                     MDLabel:
                         id:campo_pais
-                        text: "campo_país" # + root.operadora
+                        text: " " # + root.operadora
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -237,13 +240,13 @@
 
                     MDLabel:
                         id:campo_lat
-                        text: "campo_latitude"
+                        text: " "
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -261,13 +264,13 @@
 
                     MDLabel:
                         id:campo_lon
-                        text: "campo_longitude" #
+                        text: " " #
                         #color: "grey"
                         font_style: "H6"
                         pos: "22dp", "33dp"
                         halign: "center"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -325,5 +328,12 @@
                     size_hint_x: .3
                     on_press: root.manager.current = 'historico_screen' 
                     pos_hint: {"center_x": .5, "center_y": .5}
+
+                MDRaisedButton:
+                    text: "iniciar teste"
+                    height: "56dp"
+                    size_hint_x: .3
+                    on_press: root.iniciar_teste() #root.update_ping() 
+                    pos_hint: {"center_x": .5, "center_y": .3}
 
 

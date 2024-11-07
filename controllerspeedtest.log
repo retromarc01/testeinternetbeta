@@ -1,0 +1,1413 @@
+2024-11-07 14:55:16,728 - MinhaClasse - INFO - executando teste
+2024-11-07 14:55:16,729 - MinhaClasse - INFO - executando download
+2024-11-07 14:55:16,731 - MinhaClasse - INFO - executando upload
+2024-11-07 14:55:26,800 - MinhaClasse - INFO - executando humanize
+2024-11-07 14:55:26,978 - MinhaClasse - INFO - executando humanize
+2024-11-07 15:04:44,255 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:04:44,255 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:05:34,811 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:05:34,811 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:06:30,988 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:06:30,989 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:06:46,986 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:06:46,986 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:06:46,990 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:06:49,898 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8846
+2024-11-07 15:06:50,088 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:07:49,629 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:07:49,630 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:07:49,636 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:08:04,119 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:08:05,000 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:12:47,639 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:12:47,639 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:12:47,639 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:12:47,640 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:12:48,652 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:12:48,658 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:12:51,967 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8864
+2024-11-07 15:12:52,927 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:14:32,172 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:14:32,172 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:14:32,175 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:14:32,819 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8824
+2024-11-07 15:14:32,844 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:14:32,844 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:14:33,045 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:14:33,046 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:14:33,047 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:16:56,101 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:17:07,381 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:17:48,999 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:17:48,999 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:17:49,001 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:17:57,184 - ControllerSpeedTest - INFO - sem internet
+2024-11-07 15:17:57,185 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:18:05,130 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:18:05,132 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:18:05,133 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:19:31,078 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:19:52,316 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:24:51,010 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:24:51,010 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:24:51,012 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:24:55,238 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8845
+2024-11-07 15:24:55,327 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:24:55,327 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:24:55,646 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:24:55,648 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:24:55,651 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:24:55,657 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:25:33,722 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:25:33,774 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:25:57,707 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:25:57,708 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:25:57,709 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:25:59,823 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8817
+2024-11-07 15:26:00,234 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:26:00,235 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:26:02,920 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:26:02,921 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:26:02,922 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:26:02,922 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:27:07,294 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:27:08,268 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:27:50,110 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:27:50,110 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:27:50,112 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:27:51,392 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8831
+2024-11-07 15:27:51,395 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:27:51,395 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:27:51,965 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:27:51,967 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:27:51,968 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:27:51,970 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:28:17,983 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:28:18,805 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:29:37,851 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:29:37,851 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:29:37,852 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:29:38,690 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8834
+2024-11-07 15:29:38,768 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:29:38,768 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:29:39,585 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:29:39,586 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:29:39,588 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:29:39,595 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:30:14,502 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:30:20,059 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:31:07,232 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:31:07,232 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:31:07,233 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:31:07,710 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8857
+2024-11-07 15:31:07,773 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:31:07,773 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:31:08,209 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:31:08,211 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:31:08,212 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:31:08,215 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:32:08,379 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:32:08,380 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:32:08,381 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:32:15,075 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8816
+2024-11-07 15:32:15,438 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:32:15,439 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:32:23,649 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:32:23,651 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:32:23,652 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:32:23,654 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:33:13,249 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:33:18,188 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:33:23,876 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:33:23,876 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:33:23,877 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:33:24,463 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8822
+2024-11-07 15:33:24,485 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:33:24,485 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:33:24,896 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:33:24,897 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:33:24,898 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:33:24,898 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:38:13,260 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:38:13,260 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:38:13,261 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:38:13,819 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8813
+2024-11-07 15:38:14,007 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:38:14,008 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:38:18,115 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:38:18,117 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:38:18,124 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:38:26,981 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:38:27,074 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:38:33,190 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 15:38:33,190 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 15:38:33,191 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 15:38:35,535 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8825
+2024-11-07 15:38:35,539 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 15:38:35,539 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 15:39:08,529 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 15:39:08,531 - ControllerSpeedTest - INFO - executando download
+2024-11-07 15:39:08,532 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 15:39:08,533 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 15:39:17,992 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 15:39:18,014 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 16:02:23,138 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 16:02:23,138 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 16:02:23,140 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 16:02:23,663 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8772
+2024-11-07 16:02:23,682 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 16:02:23,682 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 16:05:21,354 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 16:05:21,354 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 16:05:21,355 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 16:05:21,909 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8831
+2024-11-07 16:05:21,929 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 16:05:21,929 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 16:05:23,335 - ControllerSpeedTest - INFO - executando teste
+2024-11-07 16:05:23,335 - ControllerSpeedTest - INFO - executando download
+2024-11-07 16:05:23,336 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 16:05:23,344 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 16:05:33,366 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 16:05:34,072 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 16:36:10,157 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 16:36:10,158 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 16:36:10,160 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 16:36:10,637 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8814
+2024-11-07 16:36:10,643 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 16:36:10,643 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 16:36:11,891 - kivy - INFO - Logger: Record log in /home/retromarc/.kivy/logs/kivy_24-11-07_31.txt
+2024-11-07 16:36:11,891 - kivy - INFO - Kivy: v2.1.0
+2024-11-07 16:36:11,892 - kivy - INFO - Kivy: Installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/__init__.py"
+2024-11-07 16:36:11,893 - kivy - INFO - Python: v3.10.9 (main, Sep 27 2024, 19:20:41) [GCC 13.2.0]
+2024-11-07 16:36:11,893 - kivy - INFO - Python: Interpreter at "/home/retromarc/testeinternetbeta0.1/.venv/bin/python"
+2024-11-07 16:36:11,894 - kivy - INFO - Logger: Purge log fired. Processing...
+2024-11-07 16:36:11,896 - kivy - INFO - Logger: Purge finished!
+2024-11-07 16:36:11,918 - kivy - INFO - Factory: 189 symbols loaded
+2024-11-07 16:36:12,020 - kivy - INFO - Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2024-11-07 16:36:12,032 - kivy - INFO - Window: Provider: sdl2
+2024-11-07 16:36:13,687 - kivy - INFO - GL: Using the "OpenGL" graphics system
+2024-11-07 16:36:13,687 - kivy - INFO - GL: Backend used <sdl2>
+2024-11-07 16:36:13,688 - kivy - INFO - GL: OpenGL version <b'4.1 (Compatibility Profile) Mesa 24.0.9-0ubuntu0.1'>
+2024-11-07 16:36:13,688 - kivy - INFO - GL: OpenGL vendor <b'Microsoft Corporation'>
+2024-11-07 16:36:13,688 - kivy - INFO - GL: OpenGL renderer <b'D3D12 (Intel(R) UHD Graphics 630)'>
+2024-11-07 16:36:13,688 - kivy - INFO - GL: OpenGL parsed version: 4, 1
+2024-11-07 16:36:13,689 - kivy - INFO - GL: Shading version <b'4.10'>
+2024-11-07 16:36:13,689 - kivy - INFO - GL: Texture max size <16384>
+2024-11-07 16:36:13,689 - kivy - INFO - GL: Texture max units <32>
+2024-11-07 16:36:13,709 - kivy - INFO - Window: auto add sdl2 input provider
+2024-11-07 16:36:13,709 - kivy - INFO - Window: virtual keyboard not allowed, single mode, not docked
+2024-11-07 16:36:13,716 - kivy - INFO - KivyMD: 1.1.1, git-Unknown, 2024-10-10 (installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivymd/__init__.py")
+2024-11-07 16:36:13,719 - kivy - INFO - Text: Provider: sdl2
+2024-11-07 16:36:13,751 - kivy - INFO - Reloader: Building the first screen
+2024-11-07 16:36:13,751 - kivy - INFO - Kaki: Debug mode activated
+2024-11-07 16:36:13,756 - kivy - INFO - Reloader: Autoreloader activated
+2024-11-07 16:36:13,761 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 16:36:13,762 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 16:36:14,238 - kivy - INFO - Reloader: Starting Async Kivy app
+2024-11-07 16:36:14,239 - kivy - INFO - Base: Start application main loop
+2024-11-07 16:36:14,252 - kivy - INFO - GL: NPOT texture support is available
+2024-11-07 16:36:14,349 - kivy - INFO - Base: Leaving application in progress...
+2024-11-07 16:36:14,351 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/main.py", line 6, in <module>
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:     trio.run(app.async_run, "trio")
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2093, in run
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:     raise runner.main_task_outcome.error
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 197, in async_run
+2024-11-07 16:36:14,352 - kivy - WARNING - stderr:     await async_runTouchApp(async_lib=async_lib)
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 597, in async_runTouchApp
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:     await EventLoop.async_mainloop()
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 354, in async_mainloop
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:     await self.async_idle()
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 418, in async_idle
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:     await Clock.async_tick()
+2024-11-07 16:36:14,353 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 739, in async_tick
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:     current = await self.async_idle()
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 710, in async_idle
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:     await self._async_lib.sleep(sleeptime)
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 87, in sleep
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:     await sleep_until(trio.current_time() + seconds)
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 68, in sleep_until
+2024-11-07 16:36:14,354 - kivy - WARNING - stderr:     await sleep_forever()
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 48, in sleep_forever
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:     await trio.lowlevel.wait_task_rescheduled(lambda _: trio.lowlevel.Abort.SUCCEEDED)
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_traps.py", line 172, in wait_task_rescheduled
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:     return (await _async_yield(WaitTaskRescheduled(abort_func))).unwrap()
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/outcome/_impl.py", line 213, in unwrap
+2024-11-07 16:36:14,355 - kivy - WARNING - stderr:     raise captured_error
+2024-11-07 16:36:14,356 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 1312, in raise_cancel
+2024-11-07 16:36:14,356 - kivy - WARNING - stderr:     raise KeyboardInterrupt
+2024-11-07 16:36:14,356 - kivy - WARNING - stderr: KeyboardInterrupt
+2024-11-07 19:49:11,149 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:49:11,150 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:49:49,577 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:49:49,577 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:49:49,578 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:49:50,053 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8850
+2024-11-07 19:49:50,073 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:49:50,073 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:49:52,829 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:50:43,367 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:50:43,368 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:50:43,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:50:43,851 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8788
+2024-11-07 19:50:43,875 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:50:43,875 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:50:44,896 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:51:17,781 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:51:17,782 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:51:17,783 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:51:18,242 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8820
+2024-11-07 19:51:18,258 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:51:18,258 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:51:19,612 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:51:35,979 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:51:35,980 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:51:35,981 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:51:36,381 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8830
+2024-11-07 19:51:36,385 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:51:36,385 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:51:38,318 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:52:24,557 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:52:24,558 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:52:24,559 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:52:25,027 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8839
+2024-11-07 19:52:25,050 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:52:25,051 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:52:26,383 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:52:26,556 - kivy - INFO - Logger: Record log in /home/retromarc/.kivy/logs/kivy_24-11-07_84.txt
+2024-11-07 19:52:26,555 - kivy - INFO - Kivy: v2.1.0
+2024-11-07 19:52:26,557 - kivy - INFO - Kivy: Installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/__init__.py"
+2024-11-07 19:52:26,557 - kivy - INFO - Python: v3.10.9 (main, Sep 27 2024, 19:20:41) [GCC 13.2.0]
+2024-11-07 19:52:26,557 - kivy - INFO - Python: Interpreter at "/home/retromarc/testeinternetbeta0.1/.venv/bin/python"
+2024-11-07 19:52:26,558 - kivy - INFO - Logger: Purge log fired. Processing...
+2024-11-07 19:52:26,560 - kivy - INFO - Logger: Purge finished!
+2024-11-07 19:52:26,582 - kivy - INFO - Factory: 189 symbols loaded
+2024-11-07 19:52:26,690 - kivy - INFO - Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2024-11-07 19:52:26,702 - kivy - INFO - Window: Provider: sdl2
+2024-11-07 19:52:28,427 - kivy - INFO - GL: Using the "OpenGL" graphics system
+2024-11-07 19:52:28,428 - kivy - INFO - GL: Backend used <sdl2>
+2024-11-07 19:52:28,429 - kivy - INFO - GL: OpenGL version <b'4.1 (Compatibility Profile) Mesa 24.0.9-0ubuntu0.1'>
+2024-11-07 19:52:28,429 - kivy - INFO - GL: OpenGL vendor <b'Microsoft Corporation'>
+2024-11-07 19:52:28,430 - kivy - INFO - GL: OpenGL renderer <b'D3D12 (Intel(R) UHD Graphics 630)'>
+2024-11-07 19:52:28,430 - kivy - INFO - GL: OpenGL parsed version: 4, 1
+2024-11-07 19:52:28,431 - kivy - INFO - GL: Shading version <b'4.10'>
+2024-11-07 19:52:28,431 - kivy - INFO - GL: Texture max size <16384>
+2024-11-07 19:52:28,431 - kivy - INFO - GL: Texture max units <32>
+2024-11-07 19:52:28,454 - kivy - INFO - Window: auto add sdl2 input provider
+2024-11-07 19:52:28,455 - kivy - INFO - Window: virtual keyboard not allowed, single mode, not docked
+2024-11-07 19:52:28,463 - kivy - INFO - KivyMD: 1.1.1, git-Unknown, 2024-10-10 (installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivymd/__init__.py")
+2024-11-07 19:52:28,466 - kivy - INFO - Text: Provider: sdl2
+2024-11-07 19:52:28,500 - kivy - INFO - Reloader: Building the first screen
+2024-11-07 19:52:28,500 - kivy - INFO - Kaki: Debug mode activated
+2024-11-07 19:52:28,505 - kivy - INFO - Reloader: Autoreloader activated
+2024-11-07 19:52:28,511 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:52:28,512 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:52:29,009 - kivy - INFO - Reloader: Starting Async Kivy app
+2024-11-07 19:52:29,010 - kivy - INFO - Base: Start application main loop
+2024-11-07 19:52:29,021 - kivy - INFO - GL: NPOT texture support is available
+2024-11-07 19:52:31,425 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:52:31,427 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:52:31,436 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:52:31,444 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:52:31,444 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:52:31,445 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:52:31,446 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:52:31,453 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:52:31,476 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:52:31,478 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:52:31,480 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:52:31,481 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:52:31,870 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8863
+2024-11-07 19:52:31,871 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:52:31,872 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:52:31,878 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8773
+2024-11-07 19:52:31,883 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:52:31,883 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:52:31,914 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8819
+2024-11-07 19:52:31,930 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8837
+2024-11-07 19:52:31,931 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:52:31,931 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:52:31,953 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:52:31,954 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:52:33,368 - ControllerSpeedTest - INFO - executando download
+2024-11-07 19:52:33,408 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 19:52:33,785 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:52:34,380 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 19:52:41,974 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 19:52:42,466 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 19:56:09,528 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:09,529 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:09,530 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:09,985 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8840
+2024-11-07 19:56:10,007 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:10,007 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:11,390 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:11,527 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:11,529 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:11,533 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:12,035 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8812
+2024-11-07 19:56:12,037 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:12,037 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:13,772 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:13,929 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:56:13,933 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:13,934 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:13,934 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:14,349 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8880
+2024-11-07 19:56:14,356 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:14,357 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:15,504 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:15,686 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:56:26,273 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:26,273 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:26,275 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:26,736 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8778
+2024-11-07 19:56:26,756 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:26,756 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:29,680 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:29,827 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:29,828 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:29,829 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:30,401 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8873
+2024-11-07 19:56:30,421 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:30,421 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:31,584 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:31,716 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:56:31,722 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:31,722 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:31,723 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:32,210 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8822
+2024-11-07 19:56:32,231 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:32,231 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:33,914 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:34,093 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:56:40,464 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:56:40,469 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:40,469 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:40,470 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:40,897 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8825
+2024-11-07 19:56:40,910 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:40,910 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:40,553 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:40,726 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:56:48,033 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:56:48,037 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:48,038 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:48,039 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:48,531 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8816
+2024-11-07 19:56:48,551 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:48,551 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:51,640 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:56:51,798 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:56:57,990 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:56:57,997 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:56:57,998 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:56:57,999 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:56:58,463 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8872
+2024-11-07 19:56:58,505 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:56:58,505 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:56:59,972 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:57:00,161 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:57:02,812 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:57:02,817 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:02,817 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:02,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:03,337 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8849
+2024-11-07 19:57:03,340 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:03,340 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:05,817 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:57:06,004 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:57:06,785 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:57:06,797 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:06,798 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:06,799 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:07,247 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8896
+2024-11-07 19:57:07,267 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:07,267 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:08,702 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:57:08,870 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:57:09,858 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 19:57:09,863 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:09,864 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:09,865 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:10,286 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8880
+2024-11-07 19:57:10,293 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:10,294 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:11,338 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:57:11,567 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 19:57:34,366 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:34,367 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:34,368 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:34,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:34,371 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:34,372 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:34,377 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:34,379 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:34,380 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:34,381 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:34,383 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 19:57:34,395 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:34,397 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:34,397 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 19:57:34,399 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 19:57:34,849 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8839
+2024-11-07 19:57:34,849 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8861
+2024-11-07 19:57:34,849 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8838
+2024-11-07 19:57:34,859 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:34,862 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:34,863 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:34,868 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:34,872 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:34,881 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:34,907 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8841
+2024-11-07 19:57:34,910 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8814
+2024-11-07 19:57:34,924 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:34,925 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:34,927 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 19:57:34,930 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 19:57:36,018 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 19:57:36,276 - ControllerSpeedTest - INFO - executando download
+2024-11-07 19:57:36,280 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 19:57:36,307 - ControllerSpeedTest - INFO - executando long
+2024-11-07 19:57:36,447 - kivy - WARNING - stderr: Exception in thread Thread-128 (update_long):
+2024-11-07 19:57:36,448 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 19:57:36,448 - kivy - WARNING - stderr:   File "kivy/properties.pyx", line 961, in kivy.properties.ObservableDict.__getattr__
+2024-11-07 19:57:36,448 - kivy - WARNING - stderr: KeyError: 'campo_long'
+2024-11-07 19:57:36,449 - kivy - WARNING - stderr: 
+2024-11-07 19:57:36,449 - kivy - WARNING - stderr: During handling of the above exception, another exception occurred:
+2024-11-07 19:57:36,449 - kivy - WARNING - stderr: 
+2024-11-07 19:57:36,449 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 19:57:36,449 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+2024-11-07 19:57:36,450 - kivy - WARNING - stderr:     self.run()
+2024-11-07 19:57:36,450 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/threading.py", line 953, in run
+2024-11-07 19:57:36,451 - kivy - WARNING - stderr:     self._target(*self._args, **self._kwargs)
+2024-11-07 19:57:36,451 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.py", line 130, in update_long
+2024-11-07 19:57:36,451 - kivy - WARNING - stderr:     self.ids.campo_long.text = str(self.speed_test_long)
+2024-11-07 19:57:36,452 - kivy - WARNING - stderr:   File "kivy/properties.pyx", line 964, in kivy.properties.ObservableDict.__getattr__
+2024-11-07 19:57:36,452 - kivy - WARNING - stderr: AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__setattr__'?
+2024-11-07 19:57:36,987 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 19:57:44,812 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 19:57:45,609 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 19:58:27,706 - kivy - INFO - Base: Leaving application in progress...
+2024-11-07 19:58:27,709 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 19:58:27,709 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/main.py", line 6, in <module>
+2024-11-07 19:58:27,710 - kivy - WARNING - stderr:     trio.run(app.async_run, "trio")
+2024-11-07 19:58:27,710 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2093, in run
+2024-11-07 19:58:27,710 - kivy - WARNING - stderr:     raise runner.main_task_outcome.error
+2024-11-07 19:58:27,710 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 197, in async_run
+2024-11-07 19:58:27,711 - kivy - WARNING - stderr:     await async_runTouchApp(async_lib=async_lib)
+2024-11-07 19:58:27,711 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 597, in async_runTouchApp
+2024-11-07 19:58:27,711 - kivy - WARNING - stderr:     await EventLoop.async_mainloop()
+2024-11-07 19:58:27,711 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 354, in async_mainloop
+2024-11-07 19:58:27,712 - kivy - WARNING - stderr:     await self.async_idle()
+2024-11-07 19:58:27,712 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 418, in async_idle
+2024-11-07 19:58:27,712 - kivy - WARNING - stderr:     await Clock.async_tick()
+2024-11-07 19:58:27,713 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 739, in async_tick
+2024-11-07 19:58:27,713 - kivy - WARNING - stderr:     current = await self.async_idle()
+2024-11-07 19:58:27,713 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 710, in async_idle
+2024-11-07 19:58:27,713 - kivy - WARNING - stderr:     await self._async_lib.sleep(sleeptime)
+2024-11-07 19:58:27,714 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 87, in sleep
+2024-11-07 19:58:27,714 - kivy - WARNING - stderr:     await sleep_until(trio.current_time() + seconds)
+2024-11-07 19:58:27,714 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 68, in sleep_until
+2024-11-07 19:58:27,714 - kivy - WARNING - stderr:     await sleep_forever()
+2024-11-07 19:58:27,715 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 48, in sleep_forever
+2024-11-07 19:58:27,715 - kivy - WARNING - stderr:     await trio.lowlevel.wait_task_rescheduled(lambda _: trio.lowlevel.Abort.SUCCEEDED)
+2024-11-07 19:58:27,715 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_traps.py", line 172, in wait_task_rescheduled
+2024-11-07 19:58:27,715 - kivy - WARNING - stderr:     return (await _async_yield(WaitTaskRescheduled(abort_func))).unwrap()
+2024-11-07 19:58:27,716 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/outcome/_impl.py", line 213, in unwrap
+2024-11-07 19:58:27,716 - kivy - WARNING - stderr:     raise captured_error
+2024-11-07 19:58:27,716 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 1312, in raise_cancel
+2024-11-07 19:58:27,717 - kivy - WARNING - stderr:     raise KeyboardInterrupt
+2024-11-07 19:58:27,717 - kivy - WARNING - stderr: KeyboardInterrupt
+2024-11-07 20:01:03,708 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:03,708 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:03,710 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:04,247 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8847
+2024-11-07 20:01:04,267 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:04,268 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:06,047 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:01:06,227 - kivy - INFO - Logger: Record log in /home/retromarc/.kivy/logs/kivy_24-11-07_85.txt
+2024-11-07 20:01:06,226 - kivy - INFO - Kivy: v2.1.0
+2024-11-07 20:01:06,227 - kivy - INFO - Kivy: Installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/__init__.py"
+2024-11-07 20:01:06,228 - kivy - INFO - Python: v3.10.9 (main, Sep 27 2024, 19:20:41) [GCC 13.2.0]
+2024-11-07 20:01:06,228 - kivy - INFO - Python: Interpreter at "/home/retromarc/testeinternetbeta0.1/.venv/bin/python"
+2024-11-07 20:01:06,228 - kivy - INFO - Logger: Purge log fired. Processing...
+2024-11-07 20:01:06,230 - kivy - INFO - Logger: Purge finished!
+2024-11-07 20:01:06,248 - kivy - INFO - Factory: 189 symbols loaded
+2024-11-07 20:01:06,349 - kivy - INFO - Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+2024-11-07 20:01:06,362 - kivy - INFO - Window: Provider: sdl2
+2024-11-07 20:01:07,996 - kivy - INFO - GL: Using the "OpenGL" graphics system
+2024-11-07 20:01:07,997 - kivy - INFO - GL: Backend used <sdl2>
+2024-11-07 20:01:07,997 - kivy - INFO - GL: OpenGL version <b'4.1 (Compatibility Profile) Mesa 24.0.9-0ubuntu0.1'>
+2024-11-07 20:01:07,997 - kivy - INFO - GL: OpenGL vendor <b'Microsoft Corporation'>
+2024-11-07 20:01:07,997 - kivy - INFO - GL: OpenGL renderer <b'D3D12 (Intel(R) UHD Graphics 630)'>
+2024-11-07 20:01:07,998 - kivy - INFO - GL: OpenGL parsed version: 4, 1
+2024-11-07 20:01:07,998 - kivy - INFO - GL: Shading version <b'4.10'>
+2024-11-07 20:01:07,998 - kivy - INFO - GL: Texture max size <16384>
+2024-11-07 20:01:07,999 - kivy - INFO - GL: Texture max units <32>
+2024-11-07 20:01:08,021 - kivy - INFO - Window: auto add sdl2 input provider
+2024-11-07 20:01:08,022 - kivy - INFO - Window: virtual keyboard not allowed, single mode, not docked
+2024-11-07 20:01:08,030 - kivy - INFO - KivyMD: 1.1.1, git-Unknown, 2024-10-10 (installed at "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivymd/__init__.py")
+2024-11-07 20:01:08,033 - kivy - INFO - Text: Provider: sdl2
+2024-11-07 20:01:08,067 - kivy - INFO - Reloader: Building the first screen
+2024-11-07 20:01:08,068 - kivy - INFO - Kaki: Debug mode activated
+2024-11-07 20:01:08,073 - kivy - INFO - Reloader: Autoreloader activated
+2024-11-07 20:01:08,079 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:01:08,080 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:01:08,568 - kivy - INFO - Reloader: Starting Async Kivy app
+2024-11-07 20:01:08,569 - kivy - INFO - Base: Start application main loop
+2024-11-07 20:01:08,579 - kivy - INFO - GL: NPOT texture support is available
+2024-11-07 20:01:11,549 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:11,551 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:11,551 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:11,553 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:11,554 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:11,559 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:11,561 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:11,562 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:01:11,563 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:11,579 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:11,580 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:11,581 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:01:11,584 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:11,586 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:11,588 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:01:11,986 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8884
+2024-11-07 20:01:11,987 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:11,987 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:12,008 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8809
+2024-11-07 20:01:12,013 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:12,013 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:12,041 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8908
+2024-11-07 20:01:12,058 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8870
+2024-11-07 20:01:12,060 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:12,060 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:12,071 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8838
+2024-11-07 20:01:12,074 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:12,074 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:12,098 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:01:12,098 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:01:12,937 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:01:12,975 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:01:13,146 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:01:13,169 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:01:13,742 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:01:21,730 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:01:22,383 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:02:15,030 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:02:15,031 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:02:15,032 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:02:15,467 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8838
+2024-11-07 20:02:15,469 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:02:15,469 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:02:17,132 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:02:17,338 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:02:17,338 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:02:17,339 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:02:17,786 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8829
+2024-11-07 20:02:17,810 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:02:17,810 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:02:20,172 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:02:18,849 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:02:18,854 - kivy - WARNING - stderr: --- Logging error ---
+2024-11-07 20:02:18,857 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:02:18,857 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 263, in rebuild
+2024-11-07 20:02:18,857 - kivy - WARNING - stderr:     self.unload_python_files_on_desktop()
+2024-11-07 20:02:18,857 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 247, in unload_python_files_on_desktop
+2024-11-07 20:02:18,858 - kivy - WARNING - stderr:     self.unload_files(files_to_unload)
+2024-11-07 20:02:18,858 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 214, in unload_files
+2024-11-07 20:02:18,858 - kivy - WARNING - stderr:     self.unload_python_file(filename, module_name)
+2024-11-07 20:02:18,859 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 209, in unload_python_file
+2024-11-07 20:02:18,859 - kivy - WARNING - stderr:     importlib.reload(sys.modules[module_name])
+2024-11-07 20:02:18,859 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/importlib/__init__.py", line 169, in reload
+2024-11-07 20:02:18,859 - kivy - WARNING - stderr:     _bootstrap._exec(spec, module)
+2024-11-07 20:02:18,859 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap>", line 619, in _exec
+2024-11-07 20:02:18,860 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2024-11-07 20:02:18,860 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2024-11-07 20:02:18,860 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/controller/controller_speedtest.py", line 14, in <module>
+2024-11-07 20:02:18,860 - kivy - WARNING - stderr:     class ControllerSpeedTest(Thread):
+2024-11-07 20:02:18,860 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/controller/controller_speedtest.py", line 84, in ControllerSpeedTest
+2024-11-07 20:02:18,861 - kivy - WARNING - stderr:     delf
+2024-11-07 20:02:18,861 - kivy - WARNING - stderr: NameError: name 'delf' is not defined
+2024-11-07 20:02:18,861 - kivy - WARNING - stderr: 
+2024-11-07 20:02:18,861 - kivy - WARNING - stderr: During handling of the above exception, another exception occurred:
+2024-11-07 20:02:18,862 - kivy - WARNING - stderr: 
+2024-11-07 20:02:18,862 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:02:18,863 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/logging/__init__.py", line 1100, in emit
+2024-11-07 20:02:18,863 - kivy - WARNING - stderr:     msg = self.format(record)
+2024-11-07 20:02:18,863 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/logging/__init__.py", line 943, in format
+2024-11-07 20:02:18,864 - kivy - WARNING - stderr:     return fmt.format(record)
+2024-11-07 20:02:18,864 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/logger.py", line 291, in format
+2024-11-07 20:02:18,864 - kivy - WARNING - stderr:     record = copy.deepcopy(record)
+2024-11-07 20:02:18,864 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 172, in deepcopy
+2024-11-07 20:02:18,865 - kivy - WARNING - stderr:     y = _reconstruct(x, memo, *rv)
+2024-11-07 20:02:18,865 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 271, in _reconstruct
+2024-11-07 20:02:18,865 - kivy - WARNING - stderr:     state = deepcopy(state, memo)
+2024-11-07 20:02:18,865 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 146, in deepcopy
+2024-11-07 20:02:18,865 - kivy - WARNING - stderr:     y = copier(x, memo)
+2024-11-07 20:02:18,866 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 231, in _deepcopy_dict
+2024-11-07 20:02:18,866 - kivy - WARNING - stderr:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+2024-11-07 20:02:18,866 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 146, in deepcopy
+2024-11-07 20:02:18,866 - kivy - WARNING - stderr:     y = copier(x, memo)
+2024-11-07 20:02:18,867 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 211, in _deepcopy_tuple
+2024-11-07 20:02:18,867 - kivy - WARNING - stderr:     y = [deepcopy(a, memo) for a in x]
+2024-11-07 20:02:18,867 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 211, in <listcomp>
+2024-11-07 20:02:18,868 - kivy - WARNING - stderr:     y = [deepcopy(a, memo) for a in x]
+2024-11-07 20:02:18,868 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 161, in deepcopy
+2024-11-07 20:02:18,868 - kivy - WARNING - stderr:     rv = reductor(4)
+2024-11-07 20:02:18,868 - kivy - WARNING - stderr: TypeError: cannot pickle 'traceback' object
+2024-11-07 20:02:18,869 - kivy - WARNING - stderr: Call stack:
+2024-11-07 20:02:18,870 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/main.py", line 6, in <module>
+2024-11-07 20:02:18,870 - kivy - WARNING - stderr:     trio.run(app.async_run, "trio")
+2024-11-07 20:02:18,871 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2084, in run
+2024-11-07 20:02:18,871 - kivy - WARNING - stderr:     timeout = gen.send(next_send)
+2024-11-07 20:02:18,871 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2337, in unrolled_run
+2024-11-07 20:02:18,872 - kivy - WARNING - stderr:     msg = task.context.run(next_send_fn, next_send)
+2024-11-07 20:02:18,872 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 197, in async_run
+2024-11-07 20:02:18,872 - kivy - WARNING - stderr:     await async_runTouchApp(async_lib=async_lib)
+2024-11-07 20:02:18,873 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 597, in async_runTouchApp
+2024-11-07 20:02:18,873 - kivy - WARNING - stderr:     await EventLoop.async_mainloop()
+2024-11-07 20:02:18,873 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 354, in async_mainloop
+2024-11-07 20:02:18,874 - kivy - WARNING - stderr:     await self.async_idle()
+2024-11-07 20:02:18,874 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 418, in async_idle
+2024-11-07 20:02:18,874 - kivy - WARNING - stderr:     await Clock.async_tick()
+2024-11-07 20:02:18,874 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 740, in async_tick
+2024-11-07 20:02:18,875 - kivy - WARNING - stderr:     self.post_idle(ts, current)
+2024-11-07 20:02:18,875 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 776, in post_idle
+2024-11-07 20:02:18,875 - kivy - WARNING - stderr:     self._process_events()
+2024-11-07 20:02:18,875 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 276, in rebuild
+2024-11-07 20:02:18,876 - kivy - WARNING - stderr:     Logger.exception("Reloader: Error when building app")
+2024-11-07 20:02:18,876 - kivy - WARNING - stderr: Message: 'Reloader: Error when building app'
+2024-11-07 20:02:18,876 - kivy - WARNING - stderr: Arguments: ()
+2024-11-07 20:02:18,853 - kivy - ERROR - Reloader: Error when building app
+Traceback (most recent call last):
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 263, in rebuild
+    self.unload_python_files_on_desktop()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 247, in unload_python_files_on_desktop
+    self.unload_files(files_to_unload)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 214, in unload_files
+    self.unload_python_file(filename, module_name)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 209, in unload_python_file
+    importlib.reload(sys.modules[module_name])
+  File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/controller/controller_speedtest.py", line 14, in <module>
+    class ControllerSpeedTest(Thread):
+  File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/controller/controller_speedtest.py", line 84, in ControllerSpeedTest
+    delf
+NameError: name 'delf' is not defined
+2024-11-07 20:02:56,932 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:02:56,933 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:02:56,935 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:02:57,397 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8874
+2024-11-07 20:02:57,418 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:02:57,419 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:02:58,344 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:02:58,533 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:02:58,535 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:02:58,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:02:58,966 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8833
+2024-11-07 20:02:58,980 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:02:58,980 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:03:00,433 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:03:00,621 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:00,634 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:03:00,635 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:03:00,637 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:03:01,137 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8855
+2024-11-07 20:03:01,177 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:03:01,178 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:03:02,207 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:03:02,406 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:07,165 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:07,198 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:23,303 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:23,328 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:29,515 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:29,535 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:38,755 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:38,782 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:48,221 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:48,262 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:54,519 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:54,549 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:03:57,900 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:03:57,931 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:04:01,163 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:04:01,184 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:04:02,433 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:04:02,458 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:04:12,550 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:04:12,740 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:04:15,961 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,962 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,962 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,969 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,969 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,970 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,970 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,972 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,972 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:04:15,974 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:15,974 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,975 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,976 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:15,978 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:15,979 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:04:15,992 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:15,993 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:15,996 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:04:16,483 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8814
+2024-11-07 20:04:16,484 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8809
+2024-11-07 20:04:16,490 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8887
+2024-11-07 20:04:16,491 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,504 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8826
+2024-11-07 20:04:16,505 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,506 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:16,507 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,532 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:16,533 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:16,537 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8806
+2024-11-07 20:04:16,542 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8844
+2024-11-07 20:04:16,543 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,548 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:16,554 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,555 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:04:16,555 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:16,564 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:04:18,733 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:04:18,762 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:04:18,765 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:04:18,801 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:04:18,830 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:04:18,840 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:04:27,322 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:04:27,420 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:04:54,111 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:04:54,150 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:05:59,253 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:05:59,300 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:05,305 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:05,333 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:10,553 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:10,601 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:19,831 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:19,873 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:34,366 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:34,555 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:51,857 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:51,886 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:06:56,893 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:06:56,938 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:07:26,702 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:07:26,750 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:07:40,058 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:07:40,111 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:07:46,521 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:07:46,576 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:00,112 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:00,309 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:03,062 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:03,108 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:07,318 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:07,347 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:35,235 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:35,435 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:50,384 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:50,405 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:08:57,490 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:08:57,539 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:01,407 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,409 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,409 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,412 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,412 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,413 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:01,414 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,414 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,415 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:01,415 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,427 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,429 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,430 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:01,431 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:01,433 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:01,434 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:01,435 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:01,437 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:00,515 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8827
+2024-11-07 20:09:00,516 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8810
+2024-11-07 20:09:00,521 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,522 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,523 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:00,524 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:00,561 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8847
+2024-11-07 20:09:00,564 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,564 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8876
+2024-11-07 20:09:00,570 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8859
+2024-11-07 20:09:00,571 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:00,576 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,577 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:00,592 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,598 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:00,656 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8829
+2024-11-07 20:09:00,684 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:00,685 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:02,243 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:09:02,263 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:09:02,340 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:09:02,355 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:09:02,356 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:09:02,356 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:09:12,496 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:09:12,523 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:09:17,908 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:09:17,960 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:19,340 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:09:19,387 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:22,225 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:09:22,261 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:24,857 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,859 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,861 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,862 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,862 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,863 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:24,863 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,864 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,866 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,866 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:24,874 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,875 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,877 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:24,878 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:24,878 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:24,879 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:24,880 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:24,882 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:25,287 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8852
+2024-11-07 20:09:25,289 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,289 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:25,293 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8807
+2024-11-07 20:09:25,311 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8817
+2024-11-07 20:09:25,317 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,318 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:25,321 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8840
+2024-11-07 20:09:25,327 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8834
+2024-11-07 20:09:25,329 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,332 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,343 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8844
+2024-11-07 20:09:25,345 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:25,345 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,346 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:25,360 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:25,362 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:25,378 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:26,817 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:09:26,996 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:09:27,025 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:09:27,045 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:09:27,071 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:09:28,933 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:09:34,976 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:09:35,020 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:35,866 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:09:37,713 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:09:38,971 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,972 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,973 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,973 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,974 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:38,978 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,978 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,980 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,980 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:09:38,988 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,991 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:38,992 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,992 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,993 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:09:38,994 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:38,996 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:38,997 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:38,998 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:09:39,404 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8811
+2024-11-07 20:09:39,409 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,410 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:39,418 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8861
+2024-11-07 20:09:39,436 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8839
+2024-11-07 20:09:39,436 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8835
+2024-11-07 20:09:39,437 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,439 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:39,449 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8845
+2024-11-07 20:09:39,450 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,450 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:39,459 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8828
+2024-11-07 20:09:39,464 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,465 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,477 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:39,485 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:39,485 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:09:39,491 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:09:40,611 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:09:40,908 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:09:40,936 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:09:41,007 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:09:41,315 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:09:41,627 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:09:49,682 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:09:49,722 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:09:51,105 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:09:51,763 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:10:08,122 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:10:08,169 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:10:09,425 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:10:09,475 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:10:16,214 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:10:16,253 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:10:22,551 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:10:22,600 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:14,726 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:14,769 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:24,832 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:24,891 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:29,710 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:29,743 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:32,075 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:32,126 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:38,053 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:38,078 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:40,951 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:41,001 - kivy - WARNING - stderr: --- Logging error ---
+2024-11-07 20:12:41,001 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:12:41,001 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 263, in rebuild
+2024-11-07 20:12:41,002 - kivy - WARNING - stderr:     self.unload_python_files_on_desktop()
+2024-11-07 20:12:41,002 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 247, in unload_python_files_on_desktop
+2024-11-07 20:12:41,002 - kivy - WARNING - stderr:     self.unload_files(files_to_unload)
+2024-11-07 20:12:41,002 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 214, in unload_files
+2024-11-07 20:12:41,002 - kivy - WARNING - stderr:     self.unload_python_file(filename, module_name)
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 209, in unload_python_file
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:     importlib.reload(sys.modules[module_name])
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/importlib/__init__.py", line 169, in reload
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:     _bootstrap._exec(spec, module)
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap>", line 619, in _exec
+2024-11-07 20:12:41,003 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+2024-11-07 20:12:41,004 - kivy - WARNING - stderr:   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+2024-11-07 20:12:41,004 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.py", line 18, in <module>
+2024-11-07 20:12:41,004 - kivy - WARNING - stderr:     load_kv_path(main_screen_kv)
+2024-11-07 20:12:41,004 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/utils.py", line 20, in load_kv_path
+2024-11-07 20:12:41,004 - kivy - WARNING - stderr:     Builder.load_file(kv_path)
+2024-11-07 20:12:41,005 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/builder.py", line 305, in load_file
+2024-11-07 20:12:41,005 - kivy - WARNING - stderr:     return self.load_string(data, **kwargs)
+2024-11-07 20:12:41,005 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kaki/app.py", line 453, in _builder_load_string
+2024-11-07 20:12:41,005 - kivy - WARNING - stderr:     return Builder.orig_load_string(string, **kwargs)
+2024-11-07 20:12:41,006 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/builder.py", line 372, in load_string
+2024-11-07 20:12:41,006 - kivy - WARNING - stderr:     parser = Parser(content=string, filename=fn)
+2024-11-07 20:12:41,006 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 483, in __init__
+2024-11-07 20:12:41,006 - kivy - WARNING - stderr:     self.parse(content)
+2024-11-07 20:12:41,007 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 597, in parse
+2024-11-07 20:12:41,007 - kivy - WARNING - stderr:     rule.precompile()
+2024-11-07 20:12:41,007 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+2024-11-07 20:12:41,007 - kivy - WARNING - stderr:     x.precompile()
+2024-11-07 20:12:41,008 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+2024-11-07 20:12:41,008 - kivy - WARNING - stderr:     x.precompile()
+2024-11-07 20:12:41,008 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+2024-11-07 20:12:41,008 - kivy - WARNING - stderr:     x.precompile()
+2024-11-07 20:12:41,009 - kivy - WARNING - stderr:   [Previous line repeated 1 more time]
+2024-11-07 20:12:41,009 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 341, in precompile
+2024-11-07 20:12:41,009 - kivy - WARNING - stderr:     x.precompile()
+2024-11-07 20:12:41,009 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 188, in precompile
+2024-11-07 20:12:41,010 - kivy - WARNING - stderr:     compile(value, self.ctx.filename or '<string>', 'eval')
+2024-11-07 20:12:41,010 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.kv", line 151
+2024-11-07 20:12:41,010 - kivy - WARNING - stderr:     0.7/
+2024-11-07 20:12:41,010 - kivy - WARNING - stderr: SyntaxError: invalid syntax
+2024-11-07 20:12:41,011 - kivy - WARNING - stderr: 
+2024-11-07 20:12:41,011 - kivy - WARNING - stderr: During handling of the above exception, another exception occurred:
+2024-11-07 20:12:41,011 - kivy - WARNING - stderr: 
+2024-11-07 20:12:41,012 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:12:41,012 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/logging/__init__.py", line 1100, in emit
+2024-11-07 20:12:41,012 - kivy - WARNING - stderr:     msg = self.format(record)
+2024-11-07 20:12:41,013 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/logging/__init__.py", line 943, in format
+2024-11-07 20:12:41,013 - kivy - WARNING - stderr:     return fmt.format(record)
+2024-11-07 20:12:41,013 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/logger.py", line 291, in format
+2024-11-07 20:12:41,013 - kivy - WARNING - stderr:     record = copy.deepcopy(record)
+2024-11-07 20:12:41,014 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 172, in deepcopy
+2024-11-07 20:12:41,014 - kivy - WARNING - stderr:     y = _reconstruct(x, memo, *rv)
+2024-11-07 20:12:41,015 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 271, in _reconstruct
+2024-11-07 20:12:41,015 - kivy - WARNING - stderr:     state = deepcopy(state, memo)
+2024-11-07 20:12:41,015 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 146, in deepcopy
+2024-11-07 20:12:41,016 - kivy - WARNING - stderr:     y = copier(x, memo)
+2024-11-07 20:12:41,016 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 231, in _deepcopy_dict
+2024-11-07 20:12:41,016 - kivy - WARNING - stderr:     y[deepcopy(key, memo)] = deepcopy(value, memo)
+2024-11-07 20:12:41,017 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 146, in deepcopy
+2024-11-07 20:12:41,017 - kivy - WARNING - stderr:     y = copier(x, memo)
+2024-11-07 20:12:41,017 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 211, in _deepcopy_tuple
+2024-11-07 20:12:41,017 - kivy - WARNING - stderr:     y = [deepcopy(a, memo) for a in x]
+2024-11-07 20:12:41,018 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 211, in <listcomp>
+2024-11-07 20:12:41,018 - kivy - WARNING - stderr:     y = [deepcopy(a, memo) for a in x]
+2024-11-07 20:12:41,018 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/copy.py", line 161, in deepcopy
+2024-11-07 20:12:41,019 - kivy - WARNING - stderr:     rv = reductor(4)
+2024-11-07 20:12:41,019 - kivy - WARNING - stderr: TypeError: cannot pickle 'traceback' object
+2024-11-07 20:12:41,019 - kivy - WARNING - stderr: Call stack:
+2024-11-07 20:12:41,020 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/main.py", line 6, in <module>
+2024-11-07 20:12:41,020 - kivy - WARNING - stderr:     trio.run(app.async_run, "trio")
+2024-11-07 20:12:41,021 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2084, in run
+2024-11-07 20:12:41,021 - kivy - WARNING - stderr:     timeout = gen.send(next_send)
+2024-11-07 20:12:41,021 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2337, in unrolled_run
+2024-11-07 20:12:41,021 - kivy - WARNING - stderr:     msg = task.context.run(next_send_fn, next_send)
+2024-11-07 20:12:41,022 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 197, in async_run
+2024-11-07 20:12:41,022 - kivy - WARNING - stderr:     await async_runTouchApp(async_lib=async_lib)
+2024-11-07 20:12:41,022 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 597, in async_runTouchApp
+2024-11-07 20:12:41,022 - kivy - WARNING - stderr:     await EventLoop.async_mainloop()
+2024-11-07 20:12:41,023 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 354, in async_mainloop
+2024-11-07 20:12:41,023 - kivy - WARNING - stderr:     await self.async_idle()
+2024-11-07 20:12:41,024 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 418, in async_idle
+2024-11-07 20:12:41,024 - kivy - WARNING - stderr:     await Clock.async_tick()
+2024-11-07 20:12:41,024 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 740, in async_tick
+2024-11-07 20:12:41,024 - kivy - WARNING - stderr:     self.post_idle(ts, current)
+2024-11-07 20:12:41,025 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 776, in post_idle
+2024-11-07 20:12:41,025 - kivy - WARNING - stderr:     self._process_events()
+2024-11-07 20:12:41,025 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 276, in rebuild
+2024-11-07 20:12:41,026 - kivy - WARNING - stderr:     Logger.exception("Reloader: Error when building app")
+2024-11-07 20:12:41,026 - kivy - WARNING - stderr: Message: 'Reloader: Error when building app'
+2024-11-07 20:12:41,026 - kivy - WARNING - stderr: Arguments: ()
+2024-11-07 20:12:40,998 - kivy - ERROR - Reloader: Error when building app
+Traceback (most recent call last):
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 263, in rebuild
+    self.unload_python_files_on_desktop()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 247, in unload_python_files_on_desktop
+    self.unload_files(files_to_unload)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 214, in unload_files
+    self.unload_python_file(filename, module_name)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 209, in unload_python_file
+    importlib.reload(sys.modules[module_name])
+  File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.py", line 18, in <module>
+    load_kv_path(main_screen_kv)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/utils.py", line 20, in load_kv_path
+    Builder.load_file(kv_path)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/builder.py", line 305, in load_file
+    return self.load_string(data, **kwargs)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kaki/app.py", line 453, in _builder_load_string
+    return Builder.orig_load_string(string, **kwargs)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/builder.py", line 372, in load_string
+    parser = Parser(content=string, filename=fn)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 483, in __init__
+    self.parse(content)
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 597, in parse
+    rule.precompile()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+    x.precompile()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+    x.precompile()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 345, in precompile
+    x.precompile()
+  [Previous line repeated 1 more time]
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 341, in precompile
+    x.precompile()
+  File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/lang/parser.py", line 188, in precompile
+    compile(value, self.ctx.filename or '<string>', 'eval')
+  File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.kv", line 151
+    0.7/
+SyntaxError: invalid syntax
+2024-11-07 20:12:43,540 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:43,593 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:48,510 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:48,535 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:52,226 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:52,276 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:12:55,350 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:12:55,379 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:00,572 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:00,633 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:04,057 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:04,079 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:06,213 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:06,266 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:07,829 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:07,882 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:09,827 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:09,881 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:13,146 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:13,176 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:16,898 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:16,934 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:19,898 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:19,937 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:40,674 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:39,247 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:48,401 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:48,424 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:13:58,219 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:13:58,254 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:05,263 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:05,308 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:08,609 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:08,635 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:12,195 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:12,217 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:15,265 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,266 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,266 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,267 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,267 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,271 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,272 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,272 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,274 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:14:15,274 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,275 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,282 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,285 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,285 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:14:15,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,290 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,292 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,294 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:14:15,705 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8876
+2024-11-07 20:14:15,709 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,710 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8816
+2024-11-07 20:14:15,711 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8809
+2024-11-07 20:14:15,720 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8791
+2024-11-07 20:14:15,721 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:15,725 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,726 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:15,753 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,754 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8846
+2024-11-07 20:14:15,760 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:15,762 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,762 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8878
+2024-11-07 20:14:15,766 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,778 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:15,783 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:15,785 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:14:15,794 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:14:17,046 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:14:17,047 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:14:17,047 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:14:17,556 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:14:17,574 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:14:17,641 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:14:27,195 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:14:27,594 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:14:43,735 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:43,769 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:49,497 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:49,546 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:14:55,625 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:14:55,678 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:15:06,572 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:15:06,614 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:15:12,338 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:15:12,370 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:15:15,210 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:15:15,257 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:15:26,230 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:15:26,261 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:15:31,359 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:15:31,394 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:16:28,775 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:16:28,815 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:16:48,742 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:16:48,769 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:16:53,094 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:16:53,305 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:17:05,275 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:17:05,295 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:17:11,765 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:17:11,813 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:17:22,630 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,631 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,631 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,633 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:22,633 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,636 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:22,638 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,638 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,639 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,759 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,766 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,772 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:17:22,773 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,814 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:22,819 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:22,831 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:17:22,834 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:22,842 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:17:23,145 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8825
+2024-11-07 20:17:23,163 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,163 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:23,195 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8809
+2024-11-07 20:17:23,203 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,203 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:23,293 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8850
+2024-11-07 20:17:23,310 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8855
+2024-11-07 20:17:23,323 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,323 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:23,323 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,329 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:23,383 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8869
+2024-11-07 20:17:23,384 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8794
+2024-11-07 20:17:23,392 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,405 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:17:23,405 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:23,406 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:17:25,156 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:17:25,157 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:17:25,157 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:17:25,675 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:17:25,676 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:17:26,239 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:17:35,288 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:17:36,337 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:18:19,053 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:18:19,100 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:18:28,854 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:18:28,905 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:18:43,294 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:18:43,337 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:00,882 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:00,905 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:14,844 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:14,868 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:19,458 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:19,486 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:21,808 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:21,841 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:24,748 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:24,768 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:29,614 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:29,654 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:37,184 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:37,214 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:51,417 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:51,439 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:55,092 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:55,116 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:19:57,970 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:19:58,006 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:20:01,440 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:20:01,467 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:20:03,081 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:20:03,101 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:20:10,903 - kivy - INFO - Reloader: Rebuilding the application
+2024-11-07 20:20:10,926 - kivy - INFO - Reloader: Building root widget and adding to window
+2024-11-07 20:20:16,276 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,280 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,285 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,286 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,289 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,293 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,294 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,297 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,298 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:20:16,300 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,302 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,309 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,309 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,310 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,310 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:20:16,313 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,315 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,316 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,317 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,318 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,515 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:20:16,700 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8814
+2024-11-07 20:20:16,712 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,712 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:16,916 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8855
+2024-11-07 20:20:16,918 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,918 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:16,931 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8835
+2024-11-07 20:20:16,933 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8838
+2024-11-07 20:20:16,934 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,934 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:16,941 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,946 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:16,949 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8852
+2024-11-07 20:20:16,962 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,966 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:16,967 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8825
+2024-11-07 20:20:16,971 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8817
+2024-11-07 20:20:16,987 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:16,987 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:17,001 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:20:17,002 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:20:18,363 - ControllerSpeedTest - INFO - executando download
+2024-11-07 20:20:18,364 - ControllerSpeedTest - INFO - executando long
+2024-11-07 20:20:18,370 - ControllerSpeedTest - INFO - executando ping
+2024-11-07 20:20:18,371 - ControllerSpeedTest - INFO - executando isp
+2024-11-07 20:20:18,561 - kivy - WARNING - stderr: Exception in thread Thread-767 (update_operadora):
+2024-11-07 20:20:18,562 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:20:18,565 - kivy - WARNING - stderr:   File "kivy/properties.pyx", line 961, in kivy.properties.ObservableDict.__getattr__
+2024-11-07 20:20:18,567 - kivy - WARNING - stderr: KeyError: 'campo_isp'
+2024-11-07 20:20:18,568 - kivy - WARNING - stderr: 
+2024-11-07 20:20:18,569 - kivy - WARNING - stderr: During handling of the above exception, another exception occurred:
+2024-11-07 20:20:18,569 - kivy - WARNING - stderr: 
+2024-11-07 20:20:18,569 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:20:18,570 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+2024-11-07 20:20:18,570 - kivy - WARNING - stderr:     self.run()
+2024-11-07 20:20:18,570 - kivy - WARNING - stderr:   File "/home/retromarc/.pyenv/versions/3.10.9/lib/python3.10/threading.py", line 953, in run
+2024-11-07 20:20:18,571 - kivy - WARNING - stderr:     self._target(*self._args, **self._kwargs)
+2024-11-07 20:20:18,571 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/teste_internet_app/screens/main_screen.py", line 149, in update_operadora
+2024-11-07 20:20:18,572 - kivy - WARNING - stderr:     self.ids.campo_isp.text = str(self.speed_test_isp)
+2024-11-07 20:20:18,572 - kivy - WARNING - stderr:   File "kivy/properties.pyx", line 964, in kivy.properties.ObservableDict.__getattr__
+2024-11-07 20:20:18,573 - kivy - WARNING - stderr: AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__setattr__'?
+2024-11-07 20:20:18,664 - ControllerSpeedTest - INFO - executando lat
+2024-11-07 20:20:18,667 - ControllerSpeedTest - INFO - executando upload
+2024-11-07 20:20:18,691 - ControllerSpeedTest - INFO - executando ip
+2024-11-07 20:20:26,986 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:20:27,364 - ControllerSpeedTest - INFO - executando humanize
+2024-11-07 20:20:52,278 - kivy - INFO - Base: Leaving application in progress...
+2024-11-07 20:20:52,280 - kivy - WARNING - stderr: Traceback (most recent call last):
+2024-11-07 20:20:52,280 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/main.py", line 6, in <module>
+2024-11-07 20:20:52,280 - kivy - WARNING - stderr:     trio.run(app.async_run, "trio")
+2024-11-07 20:20:52,281 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 2093, in run
+2024-11-07 20:20:52,281 - kivy - WARNING - stderr:     raise runner.main_task_outcome.error
+2024-11-07 20:20:52,281 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy_reloader/app.py", line 197, in async_run
+2024-11-07 20:20:52,282 - kivy - WARNING - stderr:     await async_runTouchApp(async_lib=async_lib)
+2024-11-07 20:20:52,282 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 597, in async_runTouchApp
+2024-11-07 20:20:52,282 - kivy - WARNING - stderr:     await EventLoop.async_mainloop()
+2024-11-07 20:20:52,282 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 354, in async_mainloop
+2024-11-07 20:20:52,282 - kivy - WARNING - stderr:     await self.async_idle()
+2024-11-07 20:20:52,283 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/base.py", line 418, in async_idle
+2024-11-07 20:20:52,283 - kivy - WARNING - stderr:     await Clock.async_tick()
+2024-11-07 20:20:52,283 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 739, in async_tick
+2024-11-07 20:20:52,283 - kivy - WARNING - stderr:     current = await self.async_idle()
+2024-11-07 20:20:52,284 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/kivy/clock.py", line 710, in async_idle
+2024-11-07 20:20:52,284 - kivy - WARNING - stderr:     await self._async_lib.sleep(sleeptime)
+2024-11-07 20:20:52,284 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 87, in sleep
+2024-11-07 20:20:52,284 - kivy - WARNING - stderr:     await sleep_until(trio.current_time() + seconds)
+2024-11-07 20:20:52,285 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 68, in sleep_until
+2024-11-07 20:20:52,285 - kivy - WARNING - stderr:     await sleep_forever()
+2024-11-07 20:20:52,285 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_timeouts.py", line 48, in sleep_forever
+2024-11-07 20:20:52,285 - kivy - WARNING - stderr:     await trio.lowlevel.wait_task_rescheduled(lambda _: trio.lowlevel.Abort.SUCCEEDED)
+2024-11-07 20:20:52,286 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_traps.py", line 172, in wait_task_rescheduled
+2024-11-07 20:20:52,286 - kivy - WARNING - stderr:     return (await _async_yield(WaitTaskRescheduled(abort_func))).unwrap()
+2024-11-07 20:20:52,286 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/outcome/_impl.py", line 213, in unwrap
+2024-11-07 20:20:52,286 - kivy - WARNING - stderr:     raise captured_error
+2024-11-07 20:20:52,287 - kivy - WARNING - stderr:   File "/home/retromarc/testeinternetbeta0.1/.venv/lib/python3.10/site-packages/trio/_core/_run.py", line 1312, in raise_cancel
+2024-11-07 20:20:52,287 - kivy - WARNING - stderr:     raise KeyboardInterrupt
+2024-11-07 20:20:52,287 - kivy - WARNING - stderr: KeyboardInterrupt
+2024-11-07 20:22:17,661 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:22:17,661 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:22:17,663 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:22:18,102 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8862
+2024-11-07 20:22:18,119 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:22:18,120 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:22:20,353 - ControllerSpeedTest - INFO - executando isp
+2024-11-07 20:23:23,794 - ControllerSpeedTest - INFO - iniciando classe
+2024-11-07 20:23:23,794 - ControllerSpeedTest - INFO - verificando se ha internet
+2024-11-07 20:23:23,796 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): www.google.com:80
+2024-11-07 20:23:24,212 - urllib3.connectionpool - DEBUG - http://www.google.com:80 "GET / HTTP/11" 200 8847
+2024-11-07 20:23:24,219 - ControllerSpeedTest - INFO - internet disponivel
+2024-11-07 20:23:24,219 - ControllerSpeedTest - INFO - iniciando modulo speedtest
+2024-11-07 20:23:25,253 - ControllerSpeedTest - INFO - executando isp
