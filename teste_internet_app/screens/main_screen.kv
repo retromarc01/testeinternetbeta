@@ -28,8 +28,8 @@
                     padding: 5
                     #pos_hint: {"center_x":0.5}
                     #pos_hint: {"top":2.2}
-                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
-                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
@@ -118,8 +118,8 @@
                 MDBoxLayout:
                     id: progress_layout
                     orientation: 'horizontal'
-                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
-                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
@@ -142,14 +142,16 @@
                         catching_duration: 1.5
                         #value: 0
                         theme_text_color: "Custom"
+                        #color_indicator: app.get_text_color()
+                        #color_background: app.get_card_bg_color()
                         text_color: app.get_text_color()
 
                 MDGridLayout:
                     id: grid_1
                     cols:2
                     padding: 5
-                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
-                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
@@ -165,7 +167,7 @@
                         pos: "12dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -189,7 +191,7 @@
                         pos: "22dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -213,7 +215,7 @@
                         pos: "22dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -238,7 +240,7 @@
                         pos: "22dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -262,7 +264,7 @@
                         pos: "22dp", "33dp"
                         halign: "left"
                         bold: True
-                        adaptive_size: True
+                        #adaptive_size: True
                         theme_text_color: "Custom"
                         text_color: app.get_text_color()
 
@@ -283,8 +285,8 @@
                     orientation: "horizontal"
                     spacing: 5
                     padding: 5
-                    md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
-                    outline_color:[1, 0, 0, 1]  # cor da linha de borda
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
@@ -292,25 +294,20 @@
                     pos_hint: {"center_x": .5, "center_y":.5}
 
                 
-                MDRaisedButton:
-                    text: "tela historico"
-                    height: "56dp"
-                    size_hint_x: .3
-                    on_press: root.manager.current = 'historico_screen' 
-                    pos_hint: {"center_x": .5, "center_y": .2}
+                
 
                 MDRaisedButton:
                     text: "iniciar teste"
                     height: "56dp"
                     size_hint_x: .3
                     on_press: root.iniciar_teste() #root.update_ping() 
-                    pos_hint: {"center_x": .5, "center_y": .1}
+                    pos_hint: {"center_x": .5, "center_y": .2}
 
                 MDRaisedButton:
                     height: "56dp"
                     text: "fechar"
                     size_hint_x: .3
-                    pos_hint: {"center_x": .5, "center_y": .0}
+                    pos_hint: {"center_x": .5, "center_y": .1/1.1/1.1/1.1}
                     on_press: app.stop()
 
 
