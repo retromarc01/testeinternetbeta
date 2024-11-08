@@ -24,8 +24,6 @@ class MainApp(App,MDApp):
         #self.view = MainScreen(self.controller)
         self.view = MyScreenManager(self.controller)#(self.controller)
         self.controller.view = self.view
-<<<<<<< HEAD
-=======
         #self.main_screen = MainScreen(self.controller)
         #self.theme_cls.theme_style_switch_animation = True
         #self.theme_cls.theme_style_switch_animation_duration = 0.8
@@ -40,7 +38,6 @@ class MainApp(App,MDApp):
         #self.configure_theme()
 
         #self.controller = MainController(self.view)
->>>>>>> testing
         self.db = Database('my_database.db')
         self.main_screen = MainScreen(self.controller)
         print(self.main_screen.ids)
@@ -88,9 +85,6 @@ class MainApp(App,MDApp):
         
         
     def get_text_color(self): 
-<<<<<<< HEAD
-        return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
-=======
         return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
     
     
@@ -108,4 +102,3 @@ class MainApp(App,MDApp):
         ping = str(ping)
         print(ping) 
         return ping"""
->>>>>>> testing
