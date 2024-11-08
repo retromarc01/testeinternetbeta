@@ -10,3 +10,5 @@ pyproject.toml
 poetry.lock
 kivy-reloader.toml
 my_database.db
+.buildozer/*
+.buildozer/
