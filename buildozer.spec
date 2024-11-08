@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Kivy Reloader
+title = testeinternet
 
 # (str) Package name
-package.name = kivy_reloader
+package.name = testeinternet
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.example
+package.domain = org.kiy
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -22,7 +22,7 @@ source.include_exts = py,png,jpg,kv,atlas,toml
 source.exclude_exts = app_copy.zip
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-source.exclude_dirs = temp, bin, dist, .venv, __pycache__
+source.exclude_dirs = temp, bin, dist, .venv, __pycache__, cache
 
 # (list) List of exclusions using pattern matching
 # Do not prefix with './'
@@ -37,17 +37,18 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, kivy, kivy_reloader, toml, trio, attrs, outcome, sniffio, sortedcontainers, exceptiongroup
+requirements = python3, kivy, kivy_reloader, toml, trio, attrs, outcome, sniffio, sortedcontainers, exceptiongroup,kivymd,speedtest-cli,kivy-garden-mapview,kivy-garden,requests,sqlite3,android,pyjnius,time,logging
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+presplash.filename = %(source.dir)s/icon.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+icon.filename = %(source.dir)s/icon.png
+
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -93,13 +94,13 @@ fullscreen = 0
 #icon.adaptive_background.filename = %(source.dir)s/data/icon_bg.png
 
 # (list) Permissions
-android.permissions = INTERNET
+android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 34
+android.api = 35
 
 # (int) Minimum API your APK / AAB will support.
 android.minapi = 24
