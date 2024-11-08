@@ -12,12 +12,13 @@ from kivymd.theming import ThemeManager
 from kivymd.uix.label import MDLabel
 from teste_internet_app.screens.topbar import TopBar
 from kivymd.uix.card import MDCard
+from kivymd.uix.menu import MDDropdownMenu
 from kivy.core.window import Window
-#Window.size = (360, 640)
+Window.size = (360, 640)
 
  
 class MainApp(App,MDApp):
-    #bg_color = ColorProperty()
+   
     def build(self):
         self.configure_theme()
         self.controller = MainController(None)
@@ -47,6 +48,17 @@ class MainApp(App,MDApp):
  
         return self.view
     
+    def get_dynamic_text_color(self): 
+        return [0, 0, 0, 1] if self.theme_cls.theme_style == "Light" else [1, 1, 1, 1]
+    
+    def get_text_color(self): 
+        # Definir a cor do texto com base no tema 
+        if self.theme_cls.theme_style == "Light": 
+            return [0, 0, 0, 1] # Preto para tema claro 
+        else: 
+            return [1, 1, 1, 1] # Branco para tema escuro
+        #return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
+    
     def get_card_bg_color(self): 
         return [1, 1, 1, 1] if self.theme_cls.theme_style == "Light" else [0.2, 0.2, 0.2, 1]
     
@@ -70,35 +82,28 @@ class MainApp(App,MDApp):
         self.topbar = TopBar()
         print(self.topbar.ids.topbar.right_action_items)
         
+        
         if self.theme_cls.theme_style == "Light" : 
-            self.theme_cls.theme_style = "Dark" 
+            self.theme_cls.theme_style = "Dark"
+      
            
-        else: self.theme_cls.theme_style = "Light"
+        else: 
+            self.theme_cls.theme_style = "Light"
+            
+
+            
         #self.topbar.ids.topbar.right_action_items = [[self.get_icon(), lambda x: self.switch_theme()]]
         for widget in self.root.walk(): 
-            if isinstance(widget, MDLabel): widget.text_color = self.get_text_color()
-            if isinstance(widget, MDCard): widget.md_bg_color = self.get_card_bg_color()
+            if isinstance(widget, MDLabel): 
+                widget.text_color = self.get_text_color()
+            
+            if isinstance(widget, MDCard): 
+                widget.md_bg_color = self.get_card_bg_color()
             
                 
         self.topbar.ids.topbar.right_action_items = [[self.get_icon(), lambda x: self.switch_theme()]]
-            
-        
-        
-    def get_text_color(self): 
-        return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
+    
+                    
     
     
-    
-    """def get_ping(self):
-        print("ping")
-        ping = ControllerSpeedTest().ping()
-        print(ping)
-        print(ControllerSpeedTest().ping())
-        ping = str(ping)
-        self.update_label_ping(ping)
-        return str(ping)
-    
-    def update_label_ping(self,ping):
-        ping = str(ping)
-        print(ping) 
-        return ping"""
+   
