@@ -1,3 +1,4 @@
+from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
 from kivy_reloader.app import App
 from kivymd.app import MDApp
 from kivy.clock import Clock
@@ -12,17 +13,34 @@ from kivymd.uix.label import MDLabel
 from teste_internet_app.screens.topbar import TopBar
 from kivymd.uix.card import MDCard
 from kivy.core.window import Window
-Window.size = (360, 640)
+#Window.size = (360, 640)
+
  
 class MainApp(App,MDApp):
     #bg_color = ColorProperty()
-    
     def build(self):
         self.configure_theme()
         self.controller = MainController(None)
         #self.view = MainScreen(self.controller)
         self.view = MyScreenManager(self.controller)#(self.controller)
         self.controller.view = self.view
+<<<<<<< HEAD
+=======
+        #self.main_screen = MainScreen(self.controller)
+        #self.theme_cls.theme_style_switch_animation = True
+        #self.theme_cls.theme_style_switch_animation_duration = 0.8
+        #self.theme_cls.theme_style = "Dark"
+        #self.theme_cls.primary_hue = "600"
+        #self.theme_cls.primary_palette = "Purple"
+        #self.myscreen_manager = self.controller.view
+        #self.myscreen_manager.main_screen = getattr(MainScreen)
+        #self.theme_cls.dynamic_color = True
+        #self.theme_cls.theme_style = "Dark"
+        #self.theme_cls.primary_palette = "Purple"
+        #self.configure_theme()
+
+        #self.controller = MainController(self.view)
+>>>>>>> testing
         self.db = Database('my_database.db')
         self.main_screen = MainScreen(self.controller)
         print(self.main_screen.ids)
@@ -70,4 +88,24 @@ class MainApp(App,MDApp):
         
         
     def get_text_color(self): 
+<<<<<<< HEAD
         return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
+=======
+        return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
+    
+    
+    
+    """def get_ping(self):
+        print("ping")
+        ping = ControllerSpeedTest().ping()
+        print(ping)
+        print(ControllerSpeedTest().ping())
+        ping = str(ping)
+        self.update_label_ping(ping)
+        return str(ping)
+    
+    def update_label_ping(self,ping):
+        ping = str(ping)
+        print(ping) 
+        return ping"""
+>>>>>>> testing

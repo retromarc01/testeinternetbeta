@@ -1,5 +1,7 @@
 # gitignore
 __pycache__/*
+cache/*
+controllerspeedtest.log
 teste_internet_app/__pycache__/*
 teste_internet_app/screens/__pycache__/*
 teste_internet_app/controller/__pycache__/*
@@ -8,3 +10,5 @@ pyproject.toml
 poetry.lock
 kivy-reloader.toml
 my_database.db
+.buildozer/*
+.buildozer/
