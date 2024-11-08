@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from threading import Thread
 import speedtest 
 #from speedtest import Speedtest

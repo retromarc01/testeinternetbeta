@@ -13,7 +13,7 @@ from kivymd.uix.label import MDLabel
 from teste_internet_app.screens.topbar import TopBar
 from kivymd.uix.card import MDCard
 from kivy.core.window import Window
-Window.size = (360, 640)
+#Window.size = (360, 640)
 
  
 class MainApp(App,MDApp):
