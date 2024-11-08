@@ -107,8 +107,9 @@ class ControllerSpeedTest(Thread):
     
     """def testando(self):
         self.logger.info("executando teste")
-        self.speedtest.get_best_server()
-        print(self.speedtest.results.server)"""
+        self.speedtest.get_config()
+        print(self.speedtest.results.client)
+        #print(self.speedtest.results.server)"""
     
 
     def test_speed(self):
