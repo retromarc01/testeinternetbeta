@@ -88,6 +88,7 @@ class MainApp(App,MDApp):
         return (0, 0, 0, 1)if self.theme_cls.theme_style == "Light"  else (1, 1, 1, 1)
     
     
+    
     """def get_ping(self):
         print("ping")
         ping = ControllerSpeedTest().ping()

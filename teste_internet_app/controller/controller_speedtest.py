@@ -22,12 +22,12 @@ class ControllerSpeedTest(Thread):
         self.logger = logging.getLogger('ControllerSpeedTest')
         self.logger.info("iniciando classe")
         self.logger.info("verificando se ha internet")
-        if self.verificar_conexao(): 
+        """if self.verificar_conexao(): 
             print("Internet está disponível.")
             self.logger.info("internet disponivel")
         else: 
             print("Internet não está disponível.")
-            self.logger.info("sem internet")
+            self.logger.info("sem internet")"""
         self.logger.info("iniciando modulo speedtest")
         self.speedtest = speedtest.Speedtest(secure=True)
         self.speedtest.get_best_server()
@@ -105,6 +105,11 @@ class ControllerSpeedTest(Thread):
         #self.pais = self.speedtest["client"]["country"]
         return self.pais
     
+    """def testando(self):
+        self.logger.info("executando teste")
+        self.speedtest.get_best_server()
+        print(self.speedtest.results.server)"""
+    
 
     def test_speed(self):
         self.logger.info("executando teste")
@@ -144,5 +149,15 @@ class ControllerSpeedTest(Thread):
             print("Não há conexão com a internet.") 
         return False
     
-#teste = ControllerSpeedTest().isp()
+    def teste_conectividade(self):
+        self.logger.info("executando teste de conectividade")
+        if self.verificar_conexao(): 
+            print("Internet está disponível.")
+            self.logger.info("internet disponivel")
+        else: 
+            print("Internet não está disponível.")
+            self.logger.info("sem internet")
+        return self.verificar_conexao() 
+    
+#teste = ControllerSpeedTest().testando()
 #teste()
