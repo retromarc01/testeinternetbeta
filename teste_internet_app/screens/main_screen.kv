@@ -11,9 +11,10 @@
 
         MDBoxLayout:
             orientation: 'vertical'
+            spacing:5
             
 
-            TopBar:
+            #TopBar:
                 
             MDFloatLayout:
                 size_hint: 1, 1
@@ -23,24 +24,16 @@
                 MDGridLayout:
                     id: grid
                     cols:2
-                    #orientation: "vertical"
-                    #row_force_default: True
                     padding: 5
-                    #pos_hint: {"center_x":0.5}
-                    #pos_hint: {"top":2.2}
-                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
-                    #outline_color:[1, 0, 0, 1]  # cor da linha de borda
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
-                    #pos_hint: {"center_x": .2/1.2, "center_y":1.6}
-                    row_default_height: '40dp'
-                    #row_default_height: 100
-                    pos_hint: {"center_x": .5, "center_y":1.5/1.}
+                    row_default_height: '30dp'
+                    pos_hint: {"center_x": .5, "top":.8/.9/.9/1}
 
                     MDLabel:
                         id:lbl_ping
-                        text: ""
+                        text: "ping"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "3dp", "33dp"
@@ -68,7 +61,7 @@
 
                     MDLabel:
                         id:lbl_ip
-                        text: ""
+                        text: "ip"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -93,7 +86,7 @@
                     
                     MDLabel:
                         id:lbl_operadora
-                        text: ""
+                        text: "operadora"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -123,8 +116,10 @@
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
-                    size_hint_y: 0.1
-                    pos_hint: {"center_x": .5, "center_y":1.3/1.1}
+                    size_hint_y: .1/2.1/2
+                    pos_hint: {"center_x": .5, "center_y":.8/.9/1.1} #1/1}
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                   #outline_color:[1, 0, 0, 1]
 
                     MDProgressBar:
                         #orientation: 'horizontal'
@@ -155,13 +150,16 @@
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
-                    size_hint_y: 0.4
-                    pos_hint: {"center_x": .5, "center_y":1/1.1}
+                    #size_hint_y: 0.4
+                    row_default_height: '20dp'
+                    pos_hint: {"center_x": .5, "center_y":.7}
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]
          
 
                     MDLabel:
                         id:lbl_upload
-                        text: ""
+                        text: "upload"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "12dp", "33dp"
@@ -185,7 +183,7 @@
 
                     MDLabel:
                         id:lbl_download
-                        text: ""
+                        text: "download"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -209,7 +207,7 @@
                     
                     MDLabel:
                         id:lbl_pais
-                        text: ""
+                        text: "país"
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -234,7 +232,7 @@
 
                     MDLabel:
                         id:lbl_lat
-                        text: "" #
+                        text: "lat" #
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -258,7 +256,7 @@
 
                     MDLabel:
                         id:lbl_lon
-                        text: "" #
+                        text: "lon" #
                         #color: "grey"
                         font_style: "Body1"
                         pos: "22dp", "33dp"
@@ -290,24 +288,30 @@
                     adaptive_height: True
                     adaptive_width: True
                     size_hint_x: 0.8/1.1
-                    size_hint_y: 0.4
-                    pos_hint: {"center_x": .5, "center_y":.5}
+                    size_hint_y: 0.4/1.0
+                    #pos_hint: {"center_x": .5, "center_y":.4/.9}
+                    pos_hint: {"center_x": .5, "center_y":.4/1.1}
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]
 
-                
-                
+                MDBoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_x: 0.8
+                    size_hint_y: None
+                    height: dp(56)
+                    spacing: dp(10)
+                    pos_hint: {"center_x": 0.5, "center_y": 0.1}
+                    #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+                    #outline_color:[1, 0, 0, 1]
 
-                MDRaisedButton:
-                    text: "iniciar teste"
-                    height: "56dp"
-                    size_hint_x: .3
-                    on_press: root.iniciar_teste() #root.update_ping() 
-                    pos_hint: {"center_x": .5, "center_y": .2}
+                    MDRaisedButton:
+                        text: "Iniciar Teste"
+                        height: dp(56)
+                        size_hint_x: 0.45
+                        on_press: root.iniciar_teste()
 
-                MDRaisedButton:
-                    height: "56dp"
-                    text: "fechar"
-                    size_hint_x: .3
-                    pos_hint: {"center_x": .5, "center_y": .1/1.1/1.1/1.1}
-                    on_press: app.stop()
-
-
+                    MDRaisedButton:
+                        text: "Fechar"
+                        height: dp(56)
+                        size_hint_x: 0.45
+                        on_press: app.stop()

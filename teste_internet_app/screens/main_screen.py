@@ -12,11 +12,13 @@ from kivy.metrics import dp
 from kivy_garden.mapview import MapView , MapMarker
 from threading import Thread
 import time
+#from kivy.lang import Builder
+#Builder.load_file("teste_internet_app/screens/historico_screen.kv")
 from kivy.utils import platform
 if platform == "android":
     from android.permissions import request_permissions, Permission
     request_permissions([Permission.READ_EXTERNAL_STORAGE, 
-                         Permission.WRITE_EXTERNAL_STORAGE])
+                         Permission.WRITE_EXTERNAL_STORAGE])  
 
 #from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
 main_screen_kv = os.path.join("teste_internet_app", "screens", "main_screen.kv")
@@ -25,10 +27,10 @@ load_kv_path(main_screen_kv)
 
 
 class MainScreen(MDScreen):
-    def __init__(self, controller, **kwargs):
+    def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.controller = controller
-        print(self.ids)
+        #self.controller = controller
+
         
     def update_display(self,data):
         self.controller = self.controller
@@ -40,8 +42,7 @@ class MainScreen(MDScreen):
         self.data = str(args)
         self.controller.add_data(self.data)
 
-        print(args)
-        print(self.data)
+
         
     def iniciar_teste(self):
         self.ids.pb.value = 0
@@ -112,7 +113,7 @@ class MainScreen(MDScreen):
         self.ids.campo_ping.text = str(self.speed_test_ping)
         
         self.threads_ativas -= 1
-        self.ids.lbl_ping.text = "ping"
+        #self.ids.lbl_ping.text = "ping"
         print("Thread de ping finalizada")
         
     def update_download(self):
@@ -121,7 +122,7 @@ class MainScreen(MDScreen):
         #download = self.controller.download_speed()
         self.ids.campo_download.text = str(self.speed_test_download)
         self.threads_ativas -= 1
-        self.ids.lbl_download.text = "download"
+        #self.ids.lbl_download.text = "download"
         print("Thread de download finalizada") 
         
     def update_upload(self):
@@ -131,7 +132,7 @@ class MainScreen(MDScreen):
         #upload = self.controller.upload_speed()
         self.ids.campo_upload.text = str(self.speed_test_upload)
         self.threads_ativas -= 1
-        self.ids.lbl_upload.text = "upload"
+        #self.ids.lbl_upload.text = "upload"
         print("Thread de upload finalizada")
         
     def update_lat(self):
@@ -139,7 +140,7 @@ class MainScreen(MDScreen):
         self.speed_test_lat = str(self.speed_test_lat)
         self.ids.campo_lat.text = str(self.speed_test_lat)
         self.threads_ativas -= 1
-        self.ids.lbl_lat.text = "lat"
+        #self.ids.lbl_lat.text = "lat"
         print("Thread de lat finalizada")
         
     def update_lon(self):
@@ -147,7 +148,7 @@ class MainScreen(MDScreen):
         self.speed_test_lon = str(self.speed_test_lon)
         self.ids.campo_lon.text = str(self.speed_test_lon)
         self.threads_ativas -= 1
-        self.ids.lbl_lon.text = "lon"
+        #self.ids.lbl_lon.text = "lon"
         print("Thread de lon finalizada")
         
     def add_map_marker(self):
@@ -163,7 +164,7 @@ class MainScreen(MDScreen):
         self.speed_test_ip = str(self.speed_test_ip)
         self.ids.campo_ip.text = str(self.speed_test_ip)
         self.threads_ativas -= 1
-        self.ids.lbl_ip.text = "ip"
+        #self.ids.lbl_ip.text = "ip"
         print("Thread de ip finalizada")
         
     def update_operadora(self):
@@ -171,7 +172,7 @@ class MainScreen(MDScreen):
         self.speed_test_isp = str(self.speed_test_isp)
         self.ids.campo_operadora.text = str(self.speed_test_isp)
         self.threads_ativas -= 1
-        self.ids.lbl_operadora.text = "operadora"
+        #self.ids.lbl_operadora.text = "operadora"
         print("Thread de operadora finalizada")
         
     def update_pais(self):
@@ -179,7 +180,7 @@ class MainScreen(MDScreen):
         self.speed_test_pais = str(self.speed_test_pais)
         self.ids.campo_pais.text = str(self.speed_test_pais)
         self.threads_ativas -= 1
-        self.ids.lbl_pais.text = "país"
+        #self.ids.lbl_pais.text = "país"
         print("Thread de pais finalizada")
         
         

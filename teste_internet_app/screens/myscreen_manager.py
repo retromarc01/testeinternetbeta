@@ -12,11 +12,22 @@ from teste_internet_app.screens.topbar import TopBar
 
 class MyScreenManager(MDScreenManager):
     
-    def __init__(self,controller, **kwargs):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+ 
+        self.add_widget(MainScreen(name='main_screen'))
+        self.add_widget(HistoricoScreen(name='historico_screen'))
+    def switch_to_screen(self, screen_name): 
+        self.current = screen_name
+        #print("Instancia de MyScreenManager")
+        #self.add_widget(TopBar(name='topbar'))
+   
+    
+    """def __init__(self,controller, **kwargs):
         super().__init__(**kwargs)
 
         self.controller = controller  
         self.add_widget(MainScreen(name='main_screen',controller=self.controller))
         self.add_widget(HistoricoScreen(name='historico_screen',controller=self.controller))
-        self.add_widget(TopBar(name='topbar'))
+        self.add_widget(TopBar(name='topbar'))"""
    

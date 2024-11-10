@@ -3,9 +3,6 @@ from kivy.clock import Clock
 from teste_internet_app.model.database import Database
 from teste_internet_app.screens.main_screen import MainScreen
 
-
-
-
 class MainController:
 
     def __init__(self, view):

@@ -1,17 +1,26 @@
 <TopBar>:
-    name:"topbar"
+    name: "topbar"
+    size_hint_y:0.1
+    #adaptive_height: True
+    #adaptive_width:True
+    
+    # Controle do tamanho do TopBar (que contém o MDTopAppBar)
+    
+    #md_bg_color: [0.5, 0.5, 0.5, 1] # Cor da borda outline_color: 
+    #outline_color:[1, 0, 0, 1]
+    #height: dp(56)  # Tamanho fixo de 56dp para o TopBar
 
     MDTopAppBar:
-        id:topbar
-        title: "teste internet"
-        pos_hint: {"center_x": .5, "top": 1.0/1.0}
+        id: topbar
+        title: "Teste Internet"
+        pos_hint: {"center_x": 0.5, "top": 1}  # Posiciona o TopBar no topo
         type: "top"
-        right_action_items: [[app.get_icon(),lambda x:  app.switch_theme()]]
-        left_action_items: [["menu",lambda x:  root.callback(x)]]
+        right_action_items: [[app.get_icon(), lambda x: app.switch_theme()]]
+        left_action_items: [["menu", lambda x: root.callback(x)]]
+        #md_bg_color:[0.5, 0.5, 0.5, 1]  # cor da borda  
+        #outline_color:[1, 0, 0, 1]
+        #adaptive_height: True
+        #adaptive_width:True
 
-    MDRaisedButton: 
-        id: menu_button 
-        text: "Menu" 
-        on_release: root.menu.open()
-
-
+    #adaptive_height: True
+    #adaptive_width:True
