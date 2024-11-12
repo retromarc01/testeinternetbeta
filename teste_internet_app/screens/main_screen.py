@@ -30,9 +30,10 @@ class MainScreen(MDScreen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         #self.controller = controller
+        #self.update_data_hora()
 
         
-    def update_display(self,data):
+    """def update_display(self,data):
         self.controller = self.controller
         data = "teste de insercao"
         self.data = self.ids.in_data.text
@@ -40,7 +41,7 @@ class MainScreen(MDScreen):
     def on_some_event(self,*args):
         Clock.schedule_once(lambda dt: asyncio.run(self.controller.fetch_data()))
         self.data = str(args)
-        self.controller.add_data(self.data)
+        self.controller.add_data(self.data)"""
 
 
         
@@ -48,7 +49,7 @@ class MainScreen(MDScreen):
         self.ids.pb.value = 0
         Clock.unschedule(self.atualizar_progress_bar)
         
-        self.threads_ativas = 8 # Inicializa o contador de threads ativas
+        self.threads_ativas = 9 # Inicializa o contador de threads ativas
         """thread_download = Thread(target=self.update_download)
         thread_download.start()
         thread_upload = Thread(target=self.update_upload)
@@ -63,6 +64,9 @@ class MainScreen(MDScreen):
         self.thread_ip = Thread(target=self.update_ip)
         self.thread_isp = Thread(target=self.update_operadora)
         self.thread_pais = Thread(target=self.update_pais)
+        self.thread_data_hora = Thread(target=self.update_data_hora)
+        
+
         
         
         self.thread_download.start() 
@@ -73,39 +77,11 @@ class MainScreen(MDScreen):
         self.thread_ip.start()
         self.thread_isp.start()
         self.thread_pais.start()
-        
+        self.thread_data_hora.start()
+        #self.update_data_hora()
         # Agendar a atualização da barra de progresso 
         Clock.schedule_interval(self.atualizar_progress_bar, 0.1)
-        
-        
-        
-        
-        
-        
-        """while thread_ping.is_alive() or thread_download.is_alive():
-            if thread_download.is_alive():
-                print("Aguardando a thread de download terminar...")
-                Clock.schedule_interval(self.atualizar_progress_bar, 0.5)
-            if thread_upload.is_alive():
-                print("Aguardando a thread de upload terminar...")
-                Clock.schedule_interval(self.atualizar_progress_bar, 0.5)
-            if thread_ping.is_alive():
-                print("Aguardando a thread de ping terminar...")
-                
-        print("Todas as threads terminaram a execução")"""
-        
-        """print("Aguardando a thread de ping terminar...")
-            time.sleep(1) # Este bloco será executado quando a thread terminar 
-        print("Thread de ping finalizada")"""
-            
-            
-        """if thread_ping.is_alive():
-                print("Aguardando a thread de ping terminar...")
-            else:
-                print("Thread de ping finalizada")
-            time.sleep(1)"""
-   
-        
+ 
     def update_ping(self):
         self.speed_test_ping = ControllerSpeedTest().ping()
         self.speed_test_ping = str(self.speed_test_ping)
@@ -139,6 +115,7 @@ class MainScreen(MDScreen):
         self.speed_test_lat = ControllerSpeedTest().lat()
         self.speed_test_lat = str(self.speed_test_lat)
         self.ids.campo_lat.text = str(self.speed_test_lat)
+        self.lat_c = self.speed_test_lat
         self.threads_ativas -= 1
         #self.ids.lbl_lat.text = "lat"
         print("Thread de lat finalizada")
@@ -147,15 +124,16 @@ class MainScreen(MDScreen):
         self.speed_test_lon = ControllerSpeedTest().lon()
         self.speed_test_lon = str(self.speed_test_lon)
         self.ids.campo_lon.text = str(self.speed_test_lon)
+        self.lon_c = self.speed_test_lon
         self.threads_ativas -= 1
         #self.ids.lbl_lon.text = "lon"
         print("Thread de lon finalizada")
         
     def add_map_marker(self):
         self.mapview = MapView(zoom=11, lat=float(self.speed_test_lat), lon=float(self.speed_test_lon))
-        #self.mapview.cache_dir = "/tmp"
         self.map_marker = MapMarker(lat=float(self.speed_test_lat), lon=float(self.speed_test_lon))
         self.mapview.add_marker(self.map_marker)
+        self.ids.box_layout_map.clear_widgets()
         self.ids.box_layout_map.add_widget(self.mapview)
         #return self.ids.map.add_widget(self.mapview)
         
@@ -183,9 +161,39 @@ class MainScreen(MDScreen):
         #self.ids.lbl_pais.text = "país"
         print("Thread de pais finalizada")
         
+    def update_data_hora(self):
+        self.speed_test_data_hora = ControllerSpeedTest().data_hora()
+        self.speed_test_data_hora = str(self.speed_test_data_hora)
+        #self.ids.campo_data_hora.text = str(self.speed_test_data_hora)
+        self.threads_ativas -= 1
+        #print(self.speed_test_data_hora)
+        #self.ids.lbl_data_hora.text = "data e hora"
+        print("Thread de data e hora finalizada")
+    
+    def salvar_dados(self):
+        
+        data_hora = self.speed_test_data_hora
+        ping = self.speed_test_ping
+        ip = self.speed_test_ip
+        operadora = self.speed_test_isp
+        upload = self.speed_test_upload
+        download = self.speed_test_download
+        #self.lon_c = self.speed_test_lon
+        #self.lat_c = self.speed_test_lat
+        pais = self.speed_test_pais
+
+        print("Dados salvos com sucesso")
+        add_data = ControllerSpeedTest().save_results_to_db(data_hora, ping, ip, operadora, upload, download, self.lon_c, self.lat_c, pais)
+        #print(add_data)
+        #print("show table")
+        #show_table = ControllerSpeedTest().show_table()
+        #print(show_table)
+        #print("select_data")
+        #select_data = ControllerSpeedTest().get_history()
+        #print(select_data)
         
     def atualizar_progress_bar(self, dt):
-        total_threads = 8
+        total_threads = 9
         threads_restantes = self.threads_ativas 
         progresso = ((total_threads - threads_restantes) / total_threads) * 100 
         self.ids.pb.value = progresso # Atualizar o valor da barra de progresso 
@@ -194,14 +202,10 @@ class MainScreen(MDScreen):
         if threads_restantes == 0: 
             Clock.unschedule(self.atualizar_progress_bar) 
             print("Todas as threads terminaram a execução")
+            self.salvar_dados()
             self.add_map_marker()
+            
+    
         
-    """def atualizar_progress_bar(self, dt): 
-        current = self.ids.pb.value # Obter o valor atual da barra de progresso 
-        if current >= 100.0: 
-            Clock.unschedule(self.atualizar_progress_bar) 
-            print("Todas as threads terminaram a execução") 
-        else: 
-            current += 1.0 # Atualizar o valor da barra de progresso 
-            self.ids.pb.value = current 
-            print(f"Progresso: {current}%")"""
+    
+ 

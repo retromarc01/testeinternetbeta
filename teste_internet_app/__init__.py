@@ -4,6 +4,7 @@ from kivymd.app import MDApp
 from kivy.clock import Clock
 from kivy.properties import StringProperty, ColorProperty
 from teste_internet_app.screens.main_screen import MainScreen
+from teste_internet_app.screens.historico_screen import HistoricoScreen
 from teste_internet_app.screens.myscreen_manager import MyScreenManager
 from kivymd.uix.screenmanager import MDScreenManager
 #from teste_internet_app.controller.main_controller import MainController
@@ -11,7 +12,7 @@ from kivymd.uix.screenmanager import MDScreenManager
 from kivymd.theming import ThemeManager
 from kivymd.uix.label import MDLabel
 from teste_internet_app.screens.topbar import TopBar
-from kivymd.uix.card import MDCard
+from kivymd.uix.card import MDCard 
 from kivymd.uix.menu import MDDropdownMenu
 from kivy.uix.boxlayout import BoxLayout
 from kivy.core.window import Window
@@ -26,6 +27,7 @@ class MainApp(App,MDApp):
         #self.view = MainScreen(self.controller)
         self.view = MyScreenManager()#(self.controller)
         self.topbar = TopBar()
+        self.historico = HistoricoScreen()
         
         # Configure a estrutura do layout principal
         main_layout = BoxLayout(orientation="vertical") 
@@ -93,6 +95,7 @@ class MainApp(App,MDApp):
         # Aguarda o carregamento do layout e acessa o ID
         #Clock.schedule_once(self.set_topbar_icon, 0.1)
         self.set_topbar_icon()
+        Clock.schedule_once(self.check_connection, 0.1)
         
         
     def set_topbar_icon(self):
@@ -143,5 +146,16 @@ class MainApp(App,MDApp):
             
             if isinstance(widget, MDCard): 
                 widget.md_bg_color = self.get_card_bg_color()
+    
+    def check_connection(self, *args): 
+        controller = ControllerSpeedTest() 
+        if not controller.verificar_conexao(): 
+            self.show_error_label()     
+                
+    def show_error_label(self): # Adiciona uma MDLabel com a mensagem de erro à tela principal 
+        main_layout = BoxLayout(orientation="vertical") 
+        error_label = MDLabel( text="Não há conexão com a internet.", halign="center", theme_text_color="Error" ) 
+        
+        main_layout.add_widget(error_label) 
             
                 

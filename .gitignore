@@ -12,3 +12,5 @@ kivy-reloader.toml
 my_database.db
 .buildozer/*
 .buildozer/
+teste_internet.db
+testeinternet.db

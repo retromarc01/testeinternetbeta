@@ -1,3 +1,4 @@
+from teste_internet_app.model.database import Database
 from threading import Thread
 import speedtest 
 #from speedtest import Speedtest
@@ -5,6 +6,9 @@ import time
 import ssl
 import logging
 import requests
+
+
+db=Database(db_name='testeinternet.db')
 
 
 ssl._create_default_https_context = ssl._create_stdlib_context
@@ -149,7 +153,20 @@ class ControllerSpeedTest(Thread):
             print("Não há conexão com a internet.") 
         return False
     
-    def teste_conectividade(self):
+    def verificar_conexao(self): 
+        url = "http://www.google.com" 
+        timeout = 5 
+        try: 
+            request = requests.get(url, timeout=timeout) 
+            if request.status_code == 200: 
+                print("Conexão com a internet estabelecida.") 
+                return True 
+        except requests.ConnectionError: 
+            print("Não há conexão com a internet.") 
+            return False 
+        return False
+    
+    """def teste_conectividade(self):
         self.logger.info("executando teste de conectividade")
         if self.verificar_conexao(): 
             print("Internet está disponível.")
@@ -157,7 +174,29 @@ class ControllerSpeedTest(Thread):
         else: 
             print("Internet não está disponível.")
             self.logger.info("sem internet")
-        return self.verificar_conexao() 
+        return self.verificar_conexao()"""
     
-#teste = ControllerSpeedTest().testando()
-#teste()
+    def data_hora(self):
+        self.logger.info("executando data e horario")
+        self.speedtest.get_config()
+        self.data = self.speedtest.results.timestamp
+        print(self.data)
+        return self.data
+    
+    def save_results_to_db(self, data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais):
+        self.logger.info("salvando resultados no banco de dados")
+        db.create_history(data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais)
+        
+    def show_table(self):
+        self.logger.info("exibindo tabela")
+        db.show_columns()
+        
+    @staticmethod
+    def get_history():
+        #self.logger.info("exibindo historico")
+        history = db.get_all_history()
+        #print("historico controller")
+        #print(type(history))
+        return history
+#teste = ControllerSpeedTest().data_hora()
+#print(vars(ControllerSpeedTest()))
