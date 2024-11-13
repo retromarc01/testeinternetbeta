@@ -1,4 +1,5 @@
 from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+#from kivy_garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
 from kivy_reloader.app import App
 from kivymd.app import MDApp
 from kivy.clock import Clock
@@ -95,7 +96,7 @@ class MainApp(App,MDApp):
         # Aguarda o carregamento do layout e acessa o ID
         #Clock.schedule_once(self.set_topbar_icon, 0.1)
         self.set_topbar_icon()
-        Clock.schedule_once(self.check_connection, 0.1)
+        #Clock.schedule_once(self.check_connection, 0.1)
         
         
     def set_topbar_icon(self):
