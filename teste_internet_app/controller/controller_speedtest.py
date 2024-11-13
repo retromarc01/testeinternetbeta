@@ -23,8 +23,8 @@ class ControllerSpeedTest(Thread):
                             handlers=[ logging.FileHandler("controllerspeedtest.log"),
                                       logging.StreamHandler() ])
         self.logger = logging.getLogger('ControllerSpeedTest')
-        self.logger.info("iniciando classe")
-        self.logger.info("verificando se ha internet")
+        #self.logger.info("iniciando classe")
+        #self.logger.info("verificando se ha internet")
         """if self.verificar_conexao(): 
             print("Internet está disponível.")
             self.logger.info("internet disponivel")
@@ -141,7 +141,7 @@ class ControllerSpeedTest(Thread):
                 print("Aguardando a thread de ping terminar...")
             time.sleep(1)
         
-    def verificar_conexao(self): 
+    """def verificar_conexao(self): 
         url = "http://www.google.com" 
         timeout = 5 
         try: # Enviar uma solicitação GET para a URL com um timeout de 5 segundos 
@@ -164,7 +164,7 @@ class ControllerSpeedTest(Thread):
         except requests.ConnectionError: 
             print("Não há conexão com a internet.") 
             return False 
-        return False
+        return False"""
     
     """def teste_conectividade(self):
         self.logger.info("executando teste de conectividade")
@@ -183,7 +183,7 @@ class ControllerSpeedTest(Thread):
         print(self.data)
         return self.data
     
-    def save_results_to_db(self, data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais):
+    """def save_results_to_db(self, data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais):
         self.logger.info("salvando resultados no banco de dados")
         db.create_history(data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais)
         
@@ -197,6 +197,6 @@ class ControllerSpeedTest(Thread):
         history = db.get_all_history()
         #print("historico controller")
         #print(type(history))
-        return history
+        return history"""
 #teste = ControllerSpeedTest().data_hora()
 #print(vars(ControllerSpeedTest()))

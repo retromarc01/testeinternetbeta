@@ -1,7 +1,7 @@
 import os
 from kivymd.uix.screen import MDScreen
 from kivy_reloader.utils import load_kv_path
-from teste_internet_app.controller.main_controller import MainController
+#from teste_internet_app.controller.main_controller import MainController
 from kivy.properties import ObjectProperty
 from kivymd.uix.menu import MDDropdownMenu
 from kivy.lang import Builder
@@ -42,6 +42,7 @@ class TopBar(MDScreen):
             print("Voltar para tela principal")  # Altere conforme necessário
             screen_manager.switch_to_screen("main_screen")# App.get_running_app().root.current = "main"
         elif text_item == "network":
+            screen_manager.switch_to_screen("network_screen")
             print("Ir para tela de rede")  # Altere conforme necessário
             # App.get_running_app().root.current = "network"
         

@@ -1,4 +1,5 @@
 from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+from teste_internet_app.controller.history_controller import HistoryController
 import os
 #from kivy.uix.screenmanager import Screen
 from kivymd.uix.screen import MDScreen
@@ -183,7 +184,7 @@ class MainScreen(MDScreen):
         pais = self.speed_test_pais
 
         print("Dados salvos com sucesso")
-        add_data = ControllerSpeedTest().save_results_to_db(data_hora, ping, ip, operadora, upload, download, self.lon_c, self.lat_c, pais)
+        add_data = HistoryController().save_results_to_db(data_hora, ping, ip, operadora, upload, download, self.lon_c, self.lat_c, pais)
         #print(add_data)
         #print("show table")
         #show_table = ControllerSpeedTest().show_table()

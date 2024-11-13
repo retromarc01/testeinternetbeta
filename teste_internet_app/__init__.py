@@ -1,4 +1,6 @@
+#from teste_internet_app.controller.wifi_scanner_controller import WifiScannerController
 from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+from teste_internet_app.controller.history_controller import HistoryController
 #from kivy_garden.matplotlib.backend_kivyagg import FigureCanvasKivyAgg
 from kivy_reloader.app import App
 from kivymd.app import MDApp
@@ -28,7 +30,7 @@ class MainApp(App,MDApp):
         #self.view = MainScreen(self.controller)
         self.view = MyScreenManager()#(self.controller)
         self.topbar = TopBar()
-        self.historico = HistoricoScreen()
+        #self.historico = HistoricoScreen()
         
         # Configure a estrutura do layout principal
         main_layout = BoxLayout(orientation="vertical") 
@@ -148,7 +150,7 @@ class MainApp(App,MDApp):
             if isinstance(widget, MDCard): 
                 widget.md_bg_color = self.get_card_bg_color()
     
-    def check_connection(self, *args): 
+    """def check_connection(self, *args): 
         controller = ControllerSpeedTest() 
         if not controller.verificar_conexao(): 
             self.show_error_label()     
@@ -157,6 +159,6 @@ class MainApp(App,MDApp):
         main_layout = BoxLayout(orientation="vertical") 
         error_label = MDLabel( text="Não há conexão com a internet.", halign="center", theme_text_color="Error" ) 
         
-        main_layout.add_widget(error_label) 
+        main_layout.add_widget(error_label)""" 
             
                 

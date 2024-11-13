@@ -1,4 +1,5 @@
-from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+#from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+from teste_internet_app.controller.history_controller import HistoryController
 import os
 from kivymd.uix.screen import MDScreen
 from kivymd.uix.label import MDLabel
@@ -21,7 +22,8 @@ class HistoricoScreen(MDScreen):
     def get_history(self):
         """Obtém o histórico de testes de internet e o armazena em `self.history`."""
         try:
-            controller = ControllerSpeedTest()
+            print("Obtendo histórico... instanciando HistoryController")
+            controller = HistoryController()
             raw_history = controller.get_history()
 
             if raw_history is None:

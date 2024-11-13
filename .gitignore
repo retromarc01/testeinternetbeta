@@ -14,3 +14,4 @@ my_database.db
 .buildozer/
 teste_internet.db
 testeinternet.db
+history_controller.log

@@ -1,0 +1,17 @@
+<NetworkScreen>:
+    MDScreen:
+        name: 'network_screen'
+        orientation: "vertical"
+        
+        MDBoxLayout:
+            orientation: 'vertical'
+            
+            MDLabel:
+                text: "Redes Wi-Fi Disponíveis"
+                halign: "center"
+                theme_text_color: "Custom"
+                text_color: app.get_text_color()
+
+            ScrollView:
+                MDList:
+                    id: container
