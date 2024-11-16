@@ -1,4 +1,5 @@
 from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
+from jnius import autoclass
 from teste_internet_app.controller.history_controller import HistoryController
 import os
 #from kivy.uix.screenmanager import Screen
@@ -19,7 +20,10 @@ from kivy.utils import platform
 if platform == "android":
     from android.permissions import request_permissions, Permission
     request_permissions([Permission.READ_EXTERNAL_STORAGE, 
-                         Permission.WRITE_EXTERNAL_STORAGE])  
+                         Permission.WRITE_EXTERNAL_STORAGE,
+                         Permission.ACCESS_FINE_LOCATION,
+                         Permission.ACCESS_WIFI_STATE,
+                         Permission.CHANGE_WIFI_STATE,])
 
 #from teste_internet_app.controller.controller_speedtest import ControllerSpeedTest
 main_screen_kv = os.path.join("teste_internet_app", "screens", "main_screen.kv")
@@ -200,11 +204,13 @@ class MainScreen(MDScreen):
         self.ids.pb.value = progresso # Atualizar o valor da barra de progresso 
         print(f"Progresso: {self.ids.pb.value:.2f}%") 
         
-        if threads_restantes == 0: 
+        if threads_restantes == 0:
+            
             Clock.unschedule(self.atualizar_progress_bar) 
             print("Todas as threads terminaram a execução")
-            self.salvar_dados()
+            
             self.add_map_marker()
+            self.salvar_dados()
             
     
         

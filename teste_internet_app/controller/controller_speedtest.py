@@ -1,4 +1,4 @@
-from teste_internet_app.model.database import Database
+# Autor: Marcio Gouveia
 from threading import Thread
 import speedtest 
 #from speedtest import Speedtest
@@ -8,7 +8,9 @@ import logging
 import requests
 
 
-db=Database(db_name='testeinternet.db')
+# Fix para erro de SSL
+# https://stackoverflow.com/questions/27835619/urllib-and-ssl-certificate-verify-failed-error
+
 
 
 ssl._create_default_https_context = ssl._create_stdlib_context
@@ -23,14 +25,6 @@ class ControllerSpeedTest(Thread):
                             handlers=[ logging.FileHandler("controllerspeedtest.log"),
                                       logging.StreamHandler() ])
         self.logger = logging.getLogger('ControllerSpeedTest')
-        #self.logger.info("iniciando classe")
-        #self.logger.info("verificando se ha internet")
-        """if self.verificar_conexao(): 
-            print("Internet está disponível.")
-            self.logger.info("internet disponivel")
-        else: 
-            print("Internet não está disponível.")
-            self.logger.info("sem internet")"""
         self.logger.info("iniciando modulo speedtest")
         self.speedtest = speedtest.Speedtest(secure=True)
         self.speedtest.get_best_server()
@@ -108,38 +102,6 @@ class ControllerSpeedTest(Thread):
         #self.pais = self.speedtest["client"]["country"]
         return self.pais
     
-    """def testando(self):
-        self.logger.info("executando teste")
-        self.speedtest.get_config()
-        print(self.speedtest.results.client)
-        #print(self.speedtest.results.server)"""
-    
-
-    def test_speed(self):
-        self.logger.info("executando teste")
-        thread_download = Thread(target=self.download_speed)
-        thread_download.start()
-        thread_upload = Thread(target=self.upload_speed)
-        thread_upload.start()
-        thread_ping = thread_ping = Thread(target=self.ping)
-        thread_ping.start()
-        while thread_download.is_alive() or thread_upload.is_alive() or thread_ping.is_alive():
-            if thread_download.is_alive():
-                print("Aguardando a thread de download terminar...")
-            if thread_upload.is_alive():
-                print("Aguardando a thread de upload terminar...")
-            if thread_ping.is_alive():
-                print("Aguardando a thread de ping terminar...")
-            time.sleep(1)
-        print("Todas as threads terminaram a execução")
-        
-    def test_speed_ping(self):
-        thread_ping = thread_ping = Thread(target=self.ping)
-        thread_ping.start()
-        while thread_ping.is_alive():
-            if thread_ping.is_alive():
-                print("Aguardando a thread de ping terminar...")
-            time.sleep(1)
         
     """def verificar_conexao(self): 
         url = "http://www.google.com" 
@@ -182,21 +144,5 @@ class ControllerSpeedTest(Thread):
         self.data = self.speedtest.results.timestamp
         print(self.data)
         return self.data
-    
-    """def save_results_to_db(self, data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais):
-        self.logger.info("salvando resultados no banco de dados")
-        db.create_history(data_hora, ping, ip, operadora, upload_speed, download_speed, lon, lat, pais)
-        
-    def show_table(self):
-        self.logger.info("exibindo tabela")
-        db.show_columns()
-        
-    @staticmethod
-    def get_history():
-        #self.logger.info("exibindo historico")
-        history = db.get_all_history()
-        #print("historico controller")
-        #print(type(history))
-        return history"""
 #teste = ControllerSpeedTest().data_hora()
 #print(vars(ControllerSpeedTest()))

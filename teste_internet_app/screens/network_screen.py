@@ -26,14 +26,3 @@ class NetworkScreen(MDScreen):
             for network in networks:
                 network_info = f"{network['ssid']} - Sinal: {network['signal_level']}dBm"
                 self.ids.container.add_widget(OneLineListItem(text=network_info))
-
-
-
-"""import os
-from kivy_reloader.utils import load_kv_path
-from kivymd.uix.screen import MDScreen
-network_screen_kv = os.path.join("teste_internet_app", "screens", "network_screen.kv")
-load_kv_path(network_screen_kv)
-
-class NetworkScreen(MDScreen):
-    pass"""
